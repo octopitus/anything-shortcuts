@@ -1,0 +1,21 @@
+{
+	"extends": "eslint-config-synacor",
+	"rules": {
+		"semi": [0, "error"],
+		"react/sort-comp": [
+      2,
+      {
+        "order": [
+          "static-methods",
+          "state",
+          "/^_.+$/",
+          "type-annotations",
+          "constructor",
+          "lifecycle",
+          "everything-else",
+          "render"
+        ]
+      }
+    ]
+	}
+}

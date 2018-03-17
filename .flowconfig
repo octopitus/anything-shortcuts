@@ -1,0 +1,22 @@
+[ignore]
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+
+module.name_mapper='^[./a-zA-Z0-9$_-]+\.\(jpg\|jpeg\|png\|gif\|eot\|otf\|webp\|svg\|ttf\|woff\|woff2\|mp4\|webm\|wav\|mp3\|m4a\|aac\|oga\)$' -> '<PROJECT_ROOT>/src/tests/__mocks__/fileMock.js'
+
+module.name_mapper='\.\(css\|less\|scss\)$' -> 'identity-obj-proxy'
+module.name_mapper='^\.\/style$' -> 'identity-obj-proxy'
+
+module.name_mapper='^preact$' -> '<PROJECT_ROOT>/node_modules/preact/dist/preact.min.js'
+module.name_mapper='^react$' -> 'preact-compat'
+module.name_mapper='^react-dom$' -> 'preact-compat'
+module.name_mapper='^create-react-class$' -> 'preact-compat/lib/create-react-class'
+module.name_mapper='^react-addons-css-transition-group$' -> 'preact-css-transition-group'
+
+[strict]
