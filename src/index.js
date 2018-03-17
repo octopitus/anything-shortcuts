@@ -1,5 +1,7 @@
 // @flow
+import App from './components/App'
+
+import 'milligram/dist/milligram.css'
 import './style'
-import App from './components/app'
 
 export default App

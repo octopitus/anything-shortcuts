@@ -1,0 +1,10 @@
+.searchWrapper {
+  margin-top: 18px;
+}
+
+.input[type='search'] {
+  border-radius: 0;
+  border-width: 0 0 1px 0;
+  padding: 24px 0;
+  font-size: 18px;
+}

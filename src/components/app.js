@@ -1,40 +1,18 @@
 // @flow
-import React, { Component } from 'preact'
-import { Router } from 'preact-router'
+import React from "preact"
 
-import Header from './header'
-import Home from '../routes/home'
-import Profile from '../routes/profile'
+import Header from "./Header"
+import ContentWrapper from "./ContentWrapper"
 
 if ((module: any).hot) {
-	require('preact/debug')
+  require("preact/debug")
 }
 
-type Props = {
-	//
-}
+const App = () => (
+  <div id="app">
+    <Header />
+    <ContentWrapper />
+  </div>
+)
 
-export default class App extends Component<Props> {
-	_currentUrl: string
-
-	/** Gets fired when the route changes.
-	 *	@param {Object} event		"change" event from [preact-router](http://git.io/preact-router)
-	 *	@param {string} event.url	The newly routed URL
-	 */
-	handleRoute = (e: { url: string }): void => {
-		this._currentUrl = e.url
-	}
-
-	render() {
-		return (
-			<div id="app">
-				<Header />
-				<Router onChange={this.handleRoute}>
-					<Home path="/" />
-					<Profile path="/profile/" user="me" />
-					<Profile path="/profile/:user" />
-				</Router>
-			</div>
-		)
-	}
-}
+export default App
