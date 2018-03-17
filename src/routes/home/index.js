@@ -1,3 +1,5 @@
+// @flow
+import React from 'preact'
 import style from './style'
 
 const Home = () => (

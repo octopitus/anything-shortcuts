@@ -1,6 +1,6 @@
 // @flow
 import React, { Component } from 'preact'
-import style from './style.css'
+import style from './style'
 
 type Props = {
 	user: string
