@@ -1,12 +1,12 @@
 .shortcutList {
   list-style: none;
-  display: inline-flex;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 40rem) {
   .shortcutList {
-    padding: 0 2rem !important;
+    padding: 0 1rem !important;
   }
 }
 

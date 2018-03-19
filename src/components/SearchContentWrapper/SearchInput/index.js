@@ -1,6 +1,5 @@
 // @flow
 import React, {Component} from 'preact'
-import classnames from 'classnames'
 
 import style from './style'
 
@@ -19,20 +18,15 @@ class SearchInput extends Component<Props> {
   }
 
   render(props: Props) {
-    const searchWrapperClasses = classnames(
-      'column',
-      'column-100',
-      style.searchWrapper
-    )
-
     return (
-      <div className={searchWrapperClasses}>
+      <div className={style.inputWrapper}>
         <input
           type="search"
           value={props.value}
           placeholder="Search..."
           onInput={this._onChange}
           className={style.input}
+          autoFocus
         />
       </div>
     )

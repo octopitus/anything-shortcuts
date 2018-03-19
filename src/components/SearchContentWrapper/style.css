@@ -1,3 +1,25 @@
-.contentWrapper {
+.shortcutSection {
 
+}
+
+.shortcutSection:first-of-type {
+  margin-top: 1em;
+}
+
+.shortcutSectionHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.shortcutSectionHeader h5 {
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.shortcutSectionHeader img {
+  width: 18px;
+  height: 18px;
+  margin-right: 0.5em;
 }
