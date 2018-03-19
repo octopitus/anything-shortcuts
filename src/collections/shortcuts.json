@@ -1,0 +1,952 @@
+[
+	{ "shortcut": "<kbd>⌘</kbd> <kbd>C</kbd>", "title": "Copy", "category": "General" },
+	{ "shortcut": "<kbd>⌘</kbd> <kbd>X</kbd>", "title": "Cut", "category": "General" },
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>V</kbd>",
+		"title": "Paste",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>V</kbd>",
+		"title": "Paste over selection",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd> Space </kbd> - drag",
+		"title": "Pan Canvas",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>N</kbd>",
+		"title": "New page",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>fn</kbd> <kbd>↑</kbd>",
+		"title": "Previous page",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>fn</kbd> <kbd>↓</kbd>",
+		"title": "Next page",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>+</kbd>",
+		"title": "Zoom in",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>-</kbd>",
+		"title": "Zoom out",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>R</kbd>",
+		"title": "Show/hide rulers",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>P</kbd>",
+		"title": "Show/hide pixels",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>X</kbd>",
+		"title": "Show/hide pixel grid",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>G</kbd>",
+		"title": "Show/hide grid",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>L</kbd>",
+		"title": "Show/hide layout",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>E</kbd>",
+		"title": "Show/hide slices",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>F</kbd>",
+		"title": "Show/hide prototyping",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>F</kbd>",
+		"title": "Filter in Layer List",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>⌘</kbd> <kbd>K</kbd>",
+		"title": "Run custom plugin",
+		"category": "General"
+	},
+	{ "shortcut": "<kbd>⌘</kbd> <kbd>Z</kbd>", "title": "Undo", "category": "General" },
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>Z</kbd>",
+		"title": "Redo",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>N</kbd>",
+		"title": "New document",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>O</kbd>",
+		"title": "Open document",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>W</kbd>",
+		"title": "Close window",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>S</kbd>",
+		"title": "Save document",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>S</kbd>",
+		"title": "Duplicate document",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>S</kbd>",
+		"title": "Save document as…",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>P</kbd>",
+		"title": "Page setup",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>,</kbd>",
+		"title": "Open Preferences window",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>H</kbd>",
+		"title": "Hide Sketch",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>Q</kbd>",
+		"title": "Quit Sketch",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>?</kbd>",
+		"title": "Open the Help menu",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>P</kbd>",
+		"title": "Open Preview window",
+		"category": "General"
+	},
+	{
+		"shortcut": "<kbd>R</kbd>",
+		"title": "Rectangle",
+		"category": "Inserting Layers"
+	},
+	{ "shortcut": "<kbd>O</kbd>", "title": "Oval", "category": "Inserting Layers" },
+	{ "shortcut": "<kbd>L</kbd>", "title": "Line", "category": "Inserting Layers" },
+	{
+		"shortcut": "<kbd>U</kbd>",
+		"title": "Rounded rectangle",
+		"category": "Inserting Layers"
+	},
+	{
+		"shortcut": "<kbd>V</kbd>",
+		"title": "Vector tool",
+		"category": "Inserting Layers"
+	},
+	{
+		"shortcut": "<kbd>P</kbd>",
+		"title": "Pencil tool",
+		"category": "Inserting Layers"
+	},
+	{
+		"shortcut": "<kbd>T</kbd>",
+		"title": "Text tool",
+		"category": "Inserting Layers"
+	},
+	{
+		"shortcut": "<kbd>A</kbd>",
+		"title": "Artboard tool",
+		"category": "Inserting Layers"
+	},
+	{
+		"shortcut": "<kbd>S</kbd>",
+		"title": "Slice tool",
+		"category": "Inserting Layers"
+	},
+	{
+		"shortcut": "<kbd>H</kbd>",
+		"title": "Hotspot tool",
+		"category": "Inserting Layers"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> - drag",
+		"title": "When inserting a layer, draw shape from center",
+		"category": "Inserting Layers"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> - drag",
+		"title": "When inserting a layer, lock ratio of shape",
+		"category": "Inserting Layers"
+	},
+	{
+		"shortcut": "<kbd> Space </kbd> - drag",
+		"title": "Place newly drawn layer before confirming it",
+		"category": "Inserting Layers"
+	},
+	{ "shortcut": "Click", "title": "Select layer", "category": "Selecting Layers" },
+	{
+		"shortcut": "Click-and-drag",
+		"title": "Select multiple layers",
+		"category": "Selecting Layers"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> - drag",
+		"title": "Selects layer within drag bounds",
+		"category": "Selecting Layers"
+	},
+	{
+		"shortcut": "Double-click layer",
+		"title": "Select grouped layer",
+		"category": "Selecting Layers"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> - click layer",
+		"title": "Select any layer",
+		"category": "Selecting Layers"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> - click layer",
+		"title": "Select an obscured layer",
+		"category": "Selecting Layers"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>A</kbd>",
+		"title": "Select all",
+		"category": "Selecting Layers"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>A</kbd>",
+		"title": "Select all Artboards",
+		"category": "Selecting Layers"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> - click",
+		"title": "Add layer to selection/deselect layer in Canvas",
+		"category": "Selecting Layers"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> - click",
+		"title": "Add layer from group to selection in Canvas",
+		"category": "Selecting Layers"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> - click",
+		"title": "Add layer to selection/deselect layer in Layer List",
+		"category": "Selecting Layers"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> - click",
+		"title": "Select a range of layers in Layer List",
+		"category": "Selecting Layers"
+	},
+	{
+		"shortcut": "<kbd>fn</kbd> <kbd>→</kbd>",
+		"title": "Select next Artboard",
+		"category": "Selecting Layers"
+	},
+	{
+		"shortcut": "<kbd>fn</kbd> <kbd>←</kbd>",
+		"title": "Select previous Artboard",
+		"category": "Selecting Layers"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>J</kbd>",
+		"title": "Reveal selection in Layer List",
+		"category": "Selecting Layers"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> - hover",
+		"title": "Display distance between other layers",
+		"category": "Moving and Resizing Layers"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>D</kbd>",
+		"title": "Duplicate",
+		"category": "Moving and Resizing Layers"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> - drag",
+		"title": "Duplicate",
+		"category": "Moving and Resizing Layers"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> - drag",
+		"title": "Move layer along X/Y axis",
+		"category": "Moving and Resizing Layers"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> - drag",
+		"title": "Move layer ignoring smart guides",
+		"category": "Moving and Resizing Layers"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> <kbd>⌘</kbd> - drag",
+		"title": "Move an obscured layer",
+		"category": "Moving and Resizing Layers"
+	},
+	{
+		"shortcut": "Arrow keys",
+		"title": "Nudge layer any direction by 1 px*",
+		"category": "Moving and Resizing Layers"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> - Arrow keys",
+		"title": "Nudge layer any direction by 10 px*",
+		"category": "Moving and Resizing Layers"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>K</kbd>",
+		"title": "Scale layer",
+		"category": "Moving and Resizing Layers"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> and resize",
+		"title": "Resize layer from center",
+		"category": "Moving and Resizing Layers"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> and resize",
+		"title": "Preserve layer ratio",
+		"category": "Moving and Resizing Layers"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>→</kbd> or <kbd>↓</kbd>",
+		"title": "Expand by 1 px",
+		"category": "Moving and Resizing Layers"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>←</kbd> or <kbd>↑</kbd>",
+		"title": "Contract by 1 px",
+		"category": "Moving and Resizing Layers"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>→</kbd> or <kbd>↓</kbd>",
+		"title": "Expand by 10 px",
+		"category": "Moving and Resizing Layers"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>←</kbd> or <kbd>↑</kbd>",
+		"title": "Contract by 10 px",
+		"category": "Moving and Resizing Layers"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>⌥</kbd> - hover",
+		"title": "Show distance to baseline/cap height on text layers",
+		"category": "Moving and Resizing Layers"
+	},
+	{
+		"shortcut": "<kbd>Enter</kbd>",
+		"title": "Edit layer",
+		"category": "Editing Layers"
+	},
+	{
+		"shortcut": "<kbd>Escape</kbd>",
+		"title": "Finish editing",
+		"category": "Editing Layers"
+	},
+	{
+		"shortcut": "<kbd>⌫</kbd>",
+		"title": "Delete layer",
+		"category": "Editing Layers"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>C</kbd>",
+		"title": "Copy style",
+		"category": "Editing Layers"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>V</kbd>",
+		"title": "Paste style",
+		"category": "Editing Layers"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>S</kbd>",
+		"title": "Sync shared style",
+		"category": "Editing Layers"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> <kbd>⌃</kbd> <kbd>S</kbd>",
+		"title": "Reset shared style",
+		"category": "Editing Layers"
+	},
+	{
+		"shortcut": "<kbd>W</kbd>",
+		"title": "Add link to Artboard",
+		"category": "Editing Layers"
+	},
+	{
+		"shortcut": "<kbd>F</kbd>",
+		"title": "Toggle fill",
+		"category": "Editing Layers"
+	},
+	{
+		"shortcut": "<kbd>B</kbd>",
+		"title": "Toggle border",
+		"category": "Editing Layers"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>C</kbd>",
+		"title": "Pick color",
+		"category": "Editing Layers"
+	},
+	{
+		"shortcut": "<kbd>0</kbd> to <kbd>9</kbd>",
+		"title": "Edit layer opacity",
+		"category": "Editing Layers"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>T</kbd>",
+		"title": "Transform shape",
+		"category": "Editing Layers"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>R</kbd>",
+		"title": "Rotate layer",
+		"category": "Editing Layers"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>⌘</kbd> <kbd>M</kbd>",
+		"title": "Use as mask",
+		"category": "Editing Layers"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>Escape</kbd>",
+		"title": "Return to instance",
+		"category": "Editing Layers"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>U</kbd>",
+		"title": "Union multiple layers",
+		"category": "Editing Layers"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>S</kbd>",
+		"title": "Subtract multiple layers",
+		"category": "Editing Layers"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>I</kbd>",
+		"title": "Intersect multiple layers",
+		"category": "Editing Layers"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>⌘</kbd> <kbd>X</kbd>",
+		"title": "Show Difference between multiple layers",
+		"category": "Editing Layers"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>O</kbd>",
+		"title": "Open/close path",
+		"category": "Vector Editing"
+	},
+	{
+		"shortcut": "<kbd>Tab</kbd>",
+		"title": "Selects next point",
+		"category": "Vector Editing"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd>",
+		"title": "Show all handle control points",
+		"category": "Vector Editing"
+	},
+	{
+		"shortcut": "<kbd>1</kbd>",
+		"title": "Straight point type",
+		"category": "Vector Editing"
+	},
+	{
+		"shortcut": "<kbd>2</kbd>",
+		"title": "Mirrored point type",
+		"category": "Vector Editing"
+	},
+	{
+		"shortcut": "<kbd>3</kbd>",
+		"title": "Disconnected point type",
+		"category": "Vector Editing"
+	},
+	{
+		"shortcut": "<kbd>4</kbd>",
+		"title": "Asymmetric point type",
+		"category": "Vector Editing"
+	},
+	{
+		"shortcut": "Double-click vector point",
+		"title": "Toggle point between Straight and Mirrored",
+		"category": "Vector Editing"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> - drag vector point",
+		"title": "Move point along X/Y axis",
+		"category": "Vector Editing"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> - drag handle control point",
+		"title": "Converts selected point to Disconnected",
+		"category": "Vector Editing"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> - click (when inserting points)",
+		"title": "Place new point at a 45º angle",
+		"category": "Vector Editing"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> - click path segment",
+		"title": "Place new point between existing points",
+		"category": "Vector Editing"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>V</kbd>",
+		"title": "Paste as rich text",
+		"category": "Text Editing"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>T</kbd>",
+		"title": "Change typeface",
+		"category": "Text Editing"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>B</kbd>",
+		"title": "Bold",
+		"category": "Text Editing"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>I</kbd>",
+		"title": "Italic",
+		"category": "Text Editing"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>U</kbd>",
+		"title": "Underline",
+		"category": "Text Editing"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>+</kbd>",
+		"title": "Increase font size",
+		"category": "Text Editing"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>-</kbd>",
+		"title": "Decrease font size",
+		"category": "Text Editing"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>⌥</kbd> <kbd>L</kbd>",
+		"title": "Increase character spacing",
+		"category": "Text Editing"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>⌥</kbd> <kbd>T</kbd>",
+		"title": "Decrease character spacing",
+		"category": "Text Editing"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>{</kbd>",
+		"title": "Align left",
+		"category": "Text Editing"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>|</kbd>",
+		"title": "Align center",
+		"category": "Text Editing"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>}</kbd>",
+		"title": "Align right",
+		"category": "Text Editing"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>Space</kbd>",
+		"title": "Emoji symbols",
+		"category": "Text Editing"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>O</kbd>",
+		"title": "Convert to outlines",
+		"category": "Text Editing"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>Return</kbd>",
+		"title": "Insert a line break",
+		"category": "Text Editing"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>G</kbd>",
+		"title": "Group",
+		"category": "Arranging Layers"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>G</kbd>",
+		"title": "Ungroup",
+		"category": "Arranging Layers"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>R</kbd>",
+		"title": "Rename layer",
+		"category": "Arranging Layers"
+	},
+	{
+		"shortcut": "<kbd>Tab</kbd>",
+		"title": "Select next layer in group",
+		"category": "Arranging Layers"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>Tab</kbd>",
+		"title": "Select previous layer in group",
+		"category": "Arranging Layers"
+	},
+	{
+		"shortcut": "<kbd>Enter</kbd>",
+		"title": "Selects layer inside group",
+		"category": "Arranging Layers"
+	},
+	{
+		"shortcut": "<kbd>Escape</kbd>",
+		"title": "Selects parent group",
+		"category": "Arranging Layers"
+	},
+	{
+		"shortcut": "Click-and-drag layer",
+		"title": "Adjust layer hierarchy",
+		"category": "Arranging Layers"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>↑</kbd>",
+		"title": "Bring forward",
+		"category": "Arranging Layers"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>↑</kbd>",
+		"title": "Bring to front",
+		"category": "Arranging Layers"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>↓</kbd>",
+		"title": "Send backward",
+		"category": "Arranging Layers"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>↓</kbd>",
+		"title": "Send to back",
+		"category": "Arranging Layers"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>↑</kbd>",
+		"title": "Move up (out of group/Artboard)",
+		"category": "Arranging Layers"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>⌘</kbd> <kbd>H</kbd>",
+		"title": "Distribute horizontally",
+		"category": "Arranging Layers"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>⌘</kbd> <kbd>V</kbd>",
+		"title": "Distribute vertically",
+		"category": "Arranging Layers"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> - click Align buttons",
+		"title": "Align layer to Artboard",
+		"category": "Arranging Layers"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>H</kbd>",
+		"title": "Hide/show layer",
+		"category": "Arranging Layers"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>L</kbd>",
+		"title": "Lock/unlock layer",
+		"category": "Arranging Layers"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>W</kbd>",
+		"title": "Pin top",
+		"category": "Constraints"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>A</kbd>",
+		"title": "Pin left",
+		"category": "Constraints"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>S</kbd>",
+		"title": "Pin bottom",
+		"category": "Constraints"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>D</kbd>",
+		"title": "Pin right",
+		"category": "Constraints"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>J</kbd>",
+		"title": "Fix width",
+		"category": "Constraints"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>K</kbd>",
+		"title": "Fix height",
+		"category": "Constraints"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>E</kbd>",
+		"title": "Export",
+		"category": "Exporting Layers"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>E</kbd>",
+		"title": "Export selected layer(s)",
+		"category": "Exporting Layers"
+	},
+	{
+		"shortcut": "Drag a layer/thumbnail to Desktop",
+		"title": "Export asset",
+		"category": "Exporting Layers"
+	},
+	{
+		"shortcut": "Drag a layer/thumbnail to Canvas",
+		"title": "Insert flattened duplicate",
+		"category": "Exporting Layers"
+	},
+	{
+		"shortcut": "<kbd>/</kbd> in layer name",
+		"title": "Includes folder in export",
+		"category": "Exporting Layers"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>0</kbd>",
+		"title": "Zoom to 100%",
+		"category": "Zoom and Focus"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>1</kbd>",
+		"title": "Zoom to all elements on Canvas",
+		"category": "Zoom and Focus"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>2</kbd>",
+		"title": "Zoom to selected layer(s)",
+		"category": "Zoom and Focus"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>3</kbd>",
+		"title": "Center selected layer(s) in the Canvas",
+		"category": "Zoom and Focus"
+	},
+	{
+		"shortcut": "<kbd>Z</kbd> - drag",
+		"title": "Zoom to area",
+		"category": "Zoom and Focus"
+	},
+	{
+		"shortcut": "<kbd>Z</kbd> - click",
+		"title": "Zoom in",
+		"category": "Zoom and Focus"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> <kbd>Z</kbd> - click",
+		"title": "Zoom out",
+		"category": "Zoom and Focus"
+	},
+	{
+		"shortcut": "<kbd>~</kbd> (<kbd>§</kbd> on some keyboards)",
+		"title": "Temporarily zoom out to 100%",
+		"category": "Zoom and Focus"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>⌘</kbd> <kbd>F</kbd>",
+		"title": "Toggle full screen",
+		"category": "Zoom and Focus"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>1</kbd>",
+		"title": "Show/hide Layer List",
+		"category": "Zoom and Focus"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>2</kbd>",
+		"title": "Show/hide Inspector",
+		"category": "Zoom and Focus"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> <kbd>.</kbd>",
+		"title": "Enter presentation mode",
+		"category": "Zoom and Focus"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> <kbd>⌘</kbd> <kbd>T</kbd>",
+		"title": "Show/hide Toolbar",
+		"category": "Zoom and Focus"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> <kbd>Tab</kbd>",
+		"title": "Focus Inspector",
+		"category": "Text Fields"
+	},
+	{
+		"shortcut": "<kbd>Tab</kbd>",
+		"title": "Select next field",
+		"category": "Text Fields"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>Tab</kbd>",
+		"title": "Select previous field",
+		"category": "Text Fields"
+	},
+	{
+		"shortcut": "<kbd>Enter</kbd>",
+		"title": "Confirm change",
+		"category": "Text Fields"
+	},
+	{
+		"shortcut": "<kbd>Escape</kbd>",
+		"title": "Clear change",
+		"category": "Text Fields"
+	},
+	{
+		"shortcut": "<kbd>↑</kbd>",
+		"title": "Increase value by 1",
+		"category": "Text Fields"
+	},
+	{
+		"shortcut": "<kbd>↓</kbd>",
+		"title": "Decrease value by 1",
+		"category": "Text Fields"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>↑</kbd>",
+		"title": "Increase value by 10",
+		"category": "Text Fields"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> <kbd>↓</kbd>",
+		"title": "Decrease value by 10",
+		"category": "Text Fields"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> <kbd>↑</kbd>",
+		"title": "Increase value by 0.1",
+		"category": "Text Fields"
+	},
+	{
+		"shortcut": "<kbd>⌥</kbd> <kbd>↓</kbd>",
+		"title": "Decrease value by 0.1",
+		"category": "Text Fields"
+	},
+	{
+		"shortcut": "<kbd>L</kbd>",
+		"title": "Scale from the left (default)",
+		"category": "Size Fields"
+	},
+	{
+		"shortcut": "<kbd>R</kbd>",
+		"title": "Scale from the right",
+		"category": "Size Fields"
+	},
+	{
+		"shortcut": "<kbd>T</kbd>",
+		"title": "Scale from the top (default)",
+		"category": "Size Fields"
+	},
+	{
+		"shortcut": "<kbd>B</kbd>",
+		"title": "Scale from the bottom",
+		"category": "Size Fields"
+	},
+	{
+		"shortcut": "<kbd>C</kbd> / <kbd>M</kbd>",
+		"title": "Scale from the center / middle",
+		"category": "Size Fields"
+	},
+	{ "shortcut": "<kbd>+</kbd>", "title": "Add", "category": "Math Operators" },
+	{ "shortcut": "<kbd>-</kbd>", "title": "Subtract", "category": "Math Operators" },
+	{ "shortcut": "<kbd>*</kbd>", "title": "Multiply", "category": "Math Operators" },
+	{ "shortcut": "<kbd>/</kbd>", "title": "Divide", "category": "Math Operators" },
+	{
+		"shortcut": "<kbd>%</kbd>",
+		"title": "Resize layer to a percentage of its parent group or Artboard",
+		"category": "Math Operators"
+	},
+	{
+		"shortcut": "<kbd>;</kbd>",
+		"title": "Value spacer. Eg, 40;0;40;0.",
+		"category": "Multiple Radiuses"
+	},
+	{
+		"shortcut": "<kbd>X</kbd>",
+		"title": "Scale multiplier. Eg, <code>2x</code> will export at twice the size",
+		"category": "Export Fields"
+	},
+	{
+		"shortcut": "<kbd>H</kbd>",
+		"title": "Exports layer at the specified height. Eg, <code>512h</code>",
+		"category": "Export Fields"
+	},
+	{
+		"shortcut": "<kbd>W</kbd>",
+		"title": "Exports layer at the specified width. Eg, <code>512w</code>",
+		"category": "Export Fields"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> on startup",
+		"title": "Launch Sketch with all plugins disabled",
+		"category": "Miscellaneous"
+	},
+	{
+		"shortcut": "<kbd>⌃</kbd> <kbd>⌘</kbd> <kbd>R</kbd>",
+		"title": "Run last-used plugin again",
+		"category": "Miscellaneous"
+	},
+	{
+		"shortcut": "<kbd>⌘</kbd> - drag selection handle",
+		"title": "Rotate layer",
+		"category": "Miscellaneous"
+	},
+	{
+		"shortcut": "<kbd>⇧</kbd> - drag when rotating",
+		"title": "Snap rotation to 15º increments",
+		"category": "Miscellaneous"
+	},
+	{
+		"shortcut": "<kbd>0</kbd> - <kbd>9</kbd>",
+		"title": "With a gradient stop selected, position it between 0% and 100%",
+		"category": "Miscellaneous"
+	},
+	{
+		"shortcut": "<kbd>=</kbd>",
+		"title": "Position selected gradient stop directly between two existing stops",
+		"category": "Miscellaneous"
+	},
+	{
+		"shortcut": "Double-click Rulers intersection",
+		"title": "Reset Ruler co-ordinates",
+		"category": "Miscellaneous"
+	}
+]

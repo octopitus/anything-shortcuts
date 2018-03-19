@@ -11,6 +11,21 @@ body {
   box-sizing: border-box;
 }
 
+kbd {
+  padding: 0.4em 0.6em;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+kbd:not(:first-child) {
+  margin-left: 4px;
+}
+
+kbd:last-child {
+  margin-right: 4px;
+}
+
 #app {
   height: 100vh;
 }

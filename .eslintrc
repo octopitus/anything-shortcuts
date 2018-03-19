@@ -1,22 +1,24 @@
 {
-  "extends": "eslint-config-synacor",
-  "plugins": ["plugin:flowtype/recommended"],
-  "rules": {
-    "semi": [0, "error"],
-    "react/sort-comp": [
-      2,
-      {
-        "order": [
-          "static-methods",
-          "state",
-          "/^_.+$/",
-          "type-annotations",
-          "constructor",
-          "lifecycle",
-          "everything-else",
-          "render"
-        ]
-      }
-    ]
-  }
+	"extends": ["eslint-config-synacor", "plugin:flowtype/recommended"],
+	"plugins": ["flowtype"],
+	"rules": {
+		"eqeqeq": [0, "smart"],
+		"semi": [0, "error"],
+		"react/no-danger": "off",
+		"react/sort-comp": [
+			2,
+			{
+				"order": [
+					"static-methods",
+					"state",
+					"/^_.+$/",
+					"type-annotations",
+					"constructor",
+					"lifecycle",
+					"everything-else",
+					"render"
+				]
+			}
+		]
+	}
 }
