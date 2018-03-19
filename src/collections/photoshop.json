@@ -1,0 +1,2162 @@
+[
+	{
+		"title": "Free Transform",
+		"shortcut": "<kbd>⌘</kbd> <kbd>T</kbd>",
+		"category": "Popular shortcuts"
+	},
+	{
+		"title": "Decrease Brush Size",
+		"shortcut": "<kbd>[</kbd>",
+		"category": "Popular shortcuts"
+	},
+	{
+		"title": "Increase Brush Size",
+		"shortcut": "</kbd>]</kbd>",
+		"category": "Popular shortcuts"
+	},
+	{
+		"title": "Decrease Brush Hardness",
+		"shortcut": "<kbd>{</kbd>",
+		"category": "Popular shortcuts"
+	},
+	{
+		"title": "Increase Brush Hardness",
+		"shortcut": "<kbd>}</kbd>",
+		"category": "Popular shortcuts"
+	},
+	{
+		"title": "Default Foreground/Background colors",
+		"shortcut": "<kbd>D</kbd>",
+		"category": "Popular shortcuts"
+	},
+	{
+		"title": "Switch Foreground/Background colors",
+		"shortcut": "<kbd>X</kbd>",
+		"category": "Popular shortcuts"
+	},
+	{
+		"title": "New layer via copy",
+		"shortcut": "<kbd>⌘</kbd> <kbd>J</kbd>",
+		"category": "Popular shortcuts"
+	},
+	{
+		"title": "New layer via cut",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>J</kbd>",
+		"category": "Popular shortcuts"
+	},
+	{
+		"title": "Add to a selection",
+		"shortcut": "Any selection tool + <kbd>⇧</kbd> + drag",
+		"category": "Popular shortcuts"
+	},
+	{
+		"title": "Delete brush or swatch",
+		"shortcut": "<kbd>⌥</kbd> + click brush or swatch",
+		"category": "Popular shortcuts"
+	},
+	{
+		"title": "Toggle auto-select with move tool",
+		"shortcut": "<kbd>⌘</kbd> + click",
+		"category": "Popular shortcuts"
+	},
+	{
+		"title": "Cancel any modal dialog window (including the Start Workspace)",
+		"shortcut": "<kbd>Escape</kbd>",
+		"category": "Popular shortcuts"
+	},
+	{
+		"title": "Navigate between fields",
+		"shortcut": "<kbd>Tab</kbd>",
+		"category": "Popular shortcuts"
+	},
+	{
+		"title": "Navigate between fields in opposite direction",
+		"shortcut": "<kbd>Tab</kbd> <kbd>⇧</kbd>",
+		"category": "Popular shortcuts"
+	},
+	{
+		"title": "Change Cancel to Reset",
+		"shortcut": "<kbd>⌥</kbd>",
+		"category": "Popular shortcuts"
+	},
+	{
+		"title": "Zoom 2x (temporary)",
+		"shortcut": "<kbd>X</kbd>",
+		"category": "Popular shortcuts"
+	},
+	{
+		"title": "Zoom in",
+		"shortcut": "<kbd>⌘</kbd> <kbd>+</kbd>",
+		"category": "Popular shortcuts"
+	},
+	{
+		"title": "Zoom out",
+		"shortcut": "<kbd>⌘</kbd> <kbd>-</kbd>",
+		"category": "Popular shortcuts"
+	},
+	{
+		"title": "Fit in view",
+		"shortcut": "<kbd>⌘</kbd> <kbd>0</kbd>, Double-click Hand tool",
+		"category": "Popular shortcuts"
+	},
+	{
+		"title": "Zoom to center at 100%",
+		"shortcut": "Double-click Zoom tool",
+		"category": "Popular shortcuts"
+	},
+	{
+		"title": "Start Help",
+		"shortcut": "Help key",
+		"category": "Function keys"
+	},
+	{
+		"title": "Undo/Redo",
+		"shortcut": "<kbd>F1</kbd>",
+		"category": "Function keys"
+	},
+	{
+		"title": "Cut",
+		"shortcut": "<kbd>F2</kbd>",
+		"category": "Function keys"
+	},
+	{
+		"title": "Copy",
+		"shortcut": "<kbd>F3</kbd>",
+		"category": "Function keys"
+	},
+	{
+		"title": "Paste",
+		"shortcut": "<kbd>F4</kbd>",
+		"category": "Function keys"
+	},
+	{
+		"title": "Show/Hide Brush panel",
+		"shortcut": "<kbd>F5</kbd>",
+		"category": "Function keys"
+	},
+	{
+		"title": "Show/Hide Color panel",
+		"shortcut": "<kbd>F6</kbd>",
+		"category": "Function keys"
+	},
+	{
+		"title": "Show/Hide Layers panel",
+		"shortcut": "<kbd>F7</kbd>",
+		"category": "Function keys"
+	},
+	{
+		"title": "Show/Hide Info panel",
+		"shortcut": "<kbd>F8</kbd>",
+		"category": "Function keys"
+	},
+	{
+		"title": "Show/Hide Actions panel",
+		"shortcut": "<kbd>⌥</kbd> <kbd>F9</kbd>",
+		"category": "Function keys"
+	},
+	{
+		"title": "Revert",
+		"shortcut": "<kbd>F12</kbd>",
+		"category": "Function keys"
+	},
+	{
+		"title": "Fill",
+		"shortcut": "<kbd>⇧</kbd> <kbd>F5</kbd>",
+		"category": "Function keys"
+	},
+	{
+		"title": "Feather Selection",
+		"shortcut": "<kbd>⇧</kbd> <kbd>F6</kbd>",
+		"category": "Function keys"
+	},
+	{
+		"title": "Inverse Selection",
+		"shortcut": "<kbd>⇧</kbd> <kbd>F7</kbd>",
+		"category": "Function keys"
+	},
+	{
+		"title": "Cycle through tools with the same shortcut key",
+		"shortcut":
+			"<kbd>⇧</kbd> + press shortcut key (if Use <kbd>⇧</kbd> Key for Tool Switch preference is selected)",
+		"category": "Select tools"
+	},
+	{
+		"title": "Cycle through hidden tools",
+		"shortcut":
+			"<kbd>⌥</kbd> + click + tool (except Add Anchor Point, Delete Anchor Point, and Convert Point tools)",
+		"category": "Select tools"
+	},
+	{
+		"title": "Move tool",
+		"shortcut": "<kbd>V</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Rectangular Marquee tool / Elliptical Marquee tool",
+		"shortcut": "<kbd>M</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Lasso tool / Polygonal Lasso tool / Magnetic Lasso tool",
+		"shortcut": "<kbd>L</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Magic Wand tool / Quick Selection tool",
+		"shortcut": "<kbd>W</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Crop tool / Slice tool / Slice Select tool",
+		"shortcut": "<kbd>C</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Eyedropper tool / Color Sampler tool / Ruler tool / Note tool",
+		"shortcut": "<kbd>I</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title":
+			"Spot Healing Brush tool / Healing Brush tool / Patch tool / Red Eye tool",
+		"shortcut": "<kbd>J</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Brush tool / Pencil tool / Color Replacement tool / Mixer Brush tool",
+		"shortcut": "<kbd>B</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Clone Stamp tool / Pattern Stamp tool",
+		"shortcut": "<kbd>S</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "History Brush tool / Art History Brush tool",
+		"shortcut": "<kbd>Y</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Eraser tool / Background Eraser tool / Magic Eraser tool",
+		"shortcut": "<kbd>E</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Gradient tool / Paint Bucket tool",
+		"shortcut": "<kbd>G</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Dodge tool / Burn tool / Sponge tool",
+		"shortcut": "<kbd>O</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Pen tool / Freeform Pen tool",
+		"shortcut": "<kbd>P</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title":
+			"Horizontal Type tool / Vertical Type tool / Horizontal Type mask tool / Vertical Type mask tool",
+		"shortcut": "<kbd>T</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Path Selection tool / Direct Selection tool",
+		"shortcut": "<kbd>A</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title":
+			"Rectangle tool / Rounded Rectangle tool / Ellipse tool / Polygon tool / Line tool / Custom Shape tool",
+		"shortcut": "<kbd>U</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Hand tool",
+		"shortcut": "<kbd>H</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Rotate View tool",
+		"shortcut": "<kbd>R</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Zoom tool",
+		"shortcut": "<kbd>Z</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Default Foreground/Background colors",
+		"shortcut": "<kbd>D</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Switch Foreground/Background colors",
+		"shortcut": "<kbd>X</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Toggle Standard/Quick Mask modes",
+		"shortcut": "<kbd>Q</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Content-Aware Move tool",
+		"shortcut": "<kbd>J</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Perspective Crop tool",
+		"shortcut": "<kbd>C</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Artboard tool",
+		"shortcut": "<kbd>V</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Rotate View tool",
+		"shortcut": "<kbd>R</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Toggle Preserve Transparency",
+		"shortcut": "<kbd>/</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Decrease Brush Hardness",
+		"shortcut": "<kbd>{</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Increase Brush Hardness",
+		"shortcut": "<kbd>}</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Previous Brush",
+		"shortcut": "<kbd>,</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Next Brush",
+		"shortcut": "<kbd>.</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "First Brush",
+		"shortcut": "<kbd>&lt;</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Last Brush",
+		"shortcut": "<kbd><kbd>&gt;</kbd>",
+		"category": "Select tools"
+	},
+	{
+		"title": "Cycle through open documents",
+		"shortcut": "<kbd>⌃</kbd> <kbd>Tab</kbd>",
+		"category": "Images"
+	},
+	{
+		"title": "Switch to previous document",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>`</kbd>",
+		"category": "Images",
+		"category": "Images"
+	},
+	{
+		"title":
+			"Toggle (forward) between Standard screen mode, Full screen mode with menu bar, and Full screen mode",
+		"shortcut": "<kbd>F</kbd>",
+		"category": "Images"
+	},
+	{
+		"title":
+			"Toggle (backward) between Standard screen mode, Full screen mode with menu bar, and Full screen mode",
+		"shortcut": "<kbd>⇧</kbd> <kbd>F</kbd>",
+		"category": "Images"
+	},
+	{
+		"title": "Toggle (forward) canvas color",
+		"shortcut":
+			"<kbd>Spacebar</kbd> <kbd>F</kbd> (or <kbd>⌃</kbd> + click canvas background and select color)",
+		"category": "Images"
+	},
+	{
+		"title": "Toggle (backward) canvas color",
+		"shortcut": "<kbd>Spacebar</kbd> <kbd>⇧</kbd> <kbd>F</kbd>",
+		"category": "Images"
+	},
+	{
+		"title": "Fit image in window",
+		"shortcut": "Double-click Hand tool",
+		"category": "Images"
+	},
+	{
+		"title": "Magnify 100%",
+		"shortcut": "Double-click Zoom tool or <kbd>⌘</kbd> <kbd>1</kbd>",
+		"category": "Images"
+	},
+	{
+		"title": "Switch to Hand tool (when not in text-edit mode)",
+		"shortcut": "<kbd>Spacebar</kbd>",
+		"category": "Images"
+	},
+	{
+		"title": "Simultaneously pan multiple documents with Hand tool",
+		"shortcut": "<kbd>⇧</kbd> + drag",
+		"category": "Images"
+	},
+	{
+		"title": "Switch to Zoom In tool",
+		"shortcut": "<kbd>⌘</kbd> <kbd>s</kbd>pacebar",
+		"category": "Images"
+	},
+	{
+		"title": "Switch to Zoom Out tool",
+		"shortcut": "<kbd>⌥</kbd> <kbd>spacebar</kbd>",
+		"category": "Images"
+	},
+	{
+		"title": "Move Zoom marquee while dragging with the Zoom tool",
+		"shortcut": "<kbd>Spacebar</kbd> + drag",
+		"category": "Images"
+	},
+	{
+		"title": "Apply zoom percentage, and keep zoom percentage box active",
+		"shortcut":
+			"<kbd>⇧</kbd> <kbd>R</kbd>eturn in Navigator panel zoom percentage box",
+		"category": "Images"
+	},
+	{
+		"title": "Zoom in on specified area of an image",
+		"shortcut": "<kbd>⌘</kbd> + drag over preview in Navigator panel",
+		"category": "Images"
+	},
+	{
+		"title": "Temporarily zoom into an image",
+		"shortcut":
+			"Hold down <kbd>H</kbd> + click in the image and hold down the mouse button",
+		"category": "Images"
+	},
+	{
+		"title": "Scroll image with Hand tool",
+		"shortcut":
+			"<kbd>Spacebar</kbd> + drag, or drag view area box in Navigator panel",
+		"category": "Images"
+	},
+	{
+		"title": "Move view to upper-left corner or lower-right corner",
+		"shortcut": "<kbd>Home</kbd> or <kbd>End</kbd>",
+		"category": "Images"
+	},
+	{
+		"title": "Toggle layer mask on/off as rubylith (layer mask must be selected)",
+		"shortcut": "<kbd>\\</bd>",
+		"category": "Images"
+	},
+	{
+		"title": "Open the Refine Edge dialog box",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> <kbd>R</kbd>",
+		"category": "Refine Edge"
+	},
+	{
+		"title": "Cycle (forward) through preview modes",
+		"shortcut": "<kbd>F</kbd>",
+		"category": "Refine Edge"
+	},
+	{
+		"title": "Cycle (backward) through preview modes",
+		"shortcut": "<kbd>⇧</kbd> <kbd>F</kbd>",
+		"category": "Refine Edge"
+	},
+	{
+		"title": "Toggle between original image and selection preview",
+		"shortcut": "<kbd>X</kbd>",
+		"category": "Refine Edge"
+	},
+	{
+		"title": "Toggle between original selection and refined version",
+		"shortcut": "<kbd>P</kbd>",
+		"category": "Refine Edge"
+	},
+	{
+		"title": "Toggle radius preview on and off",
+		"shortcut": "<kbd>J</kbd>",
+		"category": "Refine Edge"
+	},
+	{
+		"title": "Toggle between Refine Radius and Erase Refinements tools",
+		"shortcut": "<kbd>⇧</kbd> <kbd>E</kbd>",
+		"category": "Refine Edge"
+	},
+	{
+		"title": "Apply a new filter on top of selected",
+		"shortcut": "<kbd>⌥</kbd> + click a filter",
+		"category": "Filter Gallery"
+	},
+	{
+		"title": "Reapply last-used filter",
+		"shortcut": "<kbd>⌃</kbd> <kbd>⌘</kbd> <kbd>F</kbd>",
+		"category": "Filter Gallery"
+	},
+	{
+		"title": "Open/close all disclosure triangles",
+		"shortcut": "<kbd>⌥</kbd> + click a disclosure triangle",
+		"category": "Filter Gallery"
+	},
+	{
+		"title": "Change Cancel button to Default",
+		"shortcut": "<kbd>⌘</kbd>",
+		"category": "Filter Gallery"
+	},
+	{
+		"title": "Change Cancel button to Reset",
+		"shortcut": "<kbd>⌥</kbd>",
+		"category": "Filter Gallery"
+	},
+	{
+		"title": "Undo/Redo",
+		"shortcut": "<kbd>⌘</kbd> <kbd>Z</kbd>",
+		"category": "Filter Gallery"
+	},
+	{
+		"title": "Step forward",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> <kbd>Z</kbd>",
+		"category": "Filter Gallery"
+	},
+	{
+		"title": "Step backward",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> <kbd>Z</kbd>",
+		"category": "Filter Gallery"
+	},
+	{
+		"title": "Forward Warp tool",
+		"shortcut": "<kbd>W</kbd>",
+		"category": "Liquify filter"
+	},
+	{
+		"title": "Reconstruct tool",
+		"shortcut": "<kbd>R</kbd>",
+		"category": "Liquify filter"
+	},
+	{
+		"title": "Twirl Clockwise tool",
+		"shortcut": "<kbd>C</kbd>",
+		"category": "Liquify filter"
+	},
+	{
+		"title": "Pucker tool",
+		"shortcut": "<kbd>S</kbd>",
+		"category": "Liquify filter"
+	},
+	{
+		"title": "Bloat tool",
+		"shortcut": "<kbd>B</kbd>",
+		"category": "Liquify filter"
+	},
+	{
+		"title": "Push Left tool",
+		"shortcut": "<kbd>O</kbd>",
+		"category": "Liquify filter"
+	},
+	{
+		"title": "Mirror tool",
+		"shortcut": "<kbd>M</kbd>",
+		"category": "Liquify filter"
+	},
+	{
+		"title": "Turbulence tool",
+		"shortcut": "<kbd>T</kbd>",
+		"category": "Liquify filter"
+	},
+	{
+		"title": "Freeze Mask tool",
+		"shortcut": "<kbd>F</kbd>",
+		"category": "Liquify filter"
+	},
+	{
+		"title": "Thaw Mask tool",
+		"shortcut": "<kbd>D</kbd>",
+		"category": "Liquify filter"
+	},
+	{
+		"title": "Reverse direction for Bloat, Pucker, Push Left, and Mirror tools",
+		"shortcut": "<kbd>⌥</kbd> + tool",
+		"category": "Liquify filter"
+	},
+	{
+		"title": "Continually sample the distortion",
+		"shortcut":
+			"<kbd>⌥</kbd> + drag in preview with Reconstruct tool, Displace, Amplitwist, or Affine mode selected",
+		"category": "Liquify filter"
+	},
+	{
+		"title":
+			"Decrease/increase brush size by 2, or density, pressure, rate, or turbulent jitter by 1",
+		"shortcut":
+			"<kbd>↓</kbd>/<kbd>↑</kbd> in Brush Size, Density, Pressure, Rate, or Turbulent Jitter text box",
+		"category": "Liquify filter"
+	},
+	{
+		"title":
+			"Decrease/increase brush size by 2, or density, pressure, rate, or turbulent jitter by 1",
+		"shortcut":
+			"<kbd>←</kbd>/<kbd>→</kbd> with Brush Size, Density, Pressure, Rate, or Turbulent Jitter slider showing",
+		"category": "Liquify filter"
+	},
+	{
+		"title": "Cycle through controls on right from top",
+		"shortcut": "<kbd>Tab</kbd>",
+		"category": "Liquify filter"
+	},
+	{
+		"title": "Cycle through controls on right from bottom",
+		"shortcut": "<kbd>⇧</kbd> <kbd>Tab</kbd>",
+		"category": "Liquify filter"
+	},
+	{
+		"title": "Change Cancel to Reset",
+		"shortcut": "<kbd>⌥</kbd>",
+		"category": "Liquify filter"
+	},
+	{
+		"title": "Increase brush size (Brush, Stamp tools)",
+		"shortcut": "<kbd>]</kbd>",
+		"category": "Vanishing Point"
+	},
+	{
+		"title": "Decrease brush size (Brush, Stamp tools)",
+		"shortcut": "<kbd>[</kbd>",
+		"category": "Vanishing Point"
+	},
+	{
+		"title": "Increase brush hardness (Brush, Stamp tools)",
+		"shortcut": "<kbd>⇧</kbd> <kbd>]</kbd>",
+		"category": "Vanishing Point"
+	},
+	{
+		"title": "Decrease brush hardness (Brush, Stamp tools)",
+		"shortcut": "<kbd>⇧</kbd> <kbd>[</kbd>",
+		"category": "Vanishing Point"
+	},
+	{
+		"title": "Undo last action",
+		"shortcut": "<kbd>⌘</kbd> <kbd>Z</kbd>",
+		"category": "Vanishing Point"
+	},
+	{
+		"title": "Redo last action",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> <kbd>Z</kbd>",
+		"category": "Vanishing Point"
+	},
+	{
+		"title": "Deselect all",
+		"shortcut": "<kbd>⌘</kbd> <kbd>D</kbd>",
+		"category": "Vanishing Point"
+	},
+	{
+		"title": "Hide selection and planes",
+		"shortcut": "<kbd>⌘</kbd> <kbd>H</kbd>",
+		"category": "Vanishing Point"
+	},
+	{
+		"title": "Move selection 1 pixel",
+		"shortcut": "Arrow keys",
+		"category": "Vanishing Point"
+	},
+	{
+		"title": "Move selection 10 pixels",
+		"shortcut": "<kbd>⇧</kbd> + arrow keys",
+		"category": "Vanishing Point"
+	},
+	{
+		"title": "Copy",
+		"shortcut": "<kbd>⌘</kbd> <kbd>C</kbd>",
+		"category": "Vanishing Point"
+	},
+	{
+		"title": "Paste",
+		"shortcut": "<kbd>⌘</kbd> <kbd>V</kbd>",
+		"category": "Vanishing Point"
+	},
+	{
+		"title": "Repeat last duplicate and move",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> <kbd>T</kbd>",
+		"category": "Vanishing Point"
+	},
+	{
+		"title": "Fill a selection with image under the pointer",
+		"shortcut": "<kbd>⌘</kbd> + drag",
+		"category": "Vanishing Point"
+	},
+	{
+		"title": "Create a duplicate of the selection as a floating selection",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> + drag",
+		"category": "Vanishing Point"
+	},
+	{
+		"title": "Constrain selection to a 15° rotation",
+		"shortcut": "<kbd>⌥</kbd> <kbd>⇧</kbd> to rotate",
+		"category": "Vanishing Point"
+	},
+	{
+		"title": "Select a plane under another selected plane",
+		"shortcut": "<kbd>⌘</kbd> + click the plane",
+		"category": "Vanishing Point"
+	},
+	{
+		"title": "Create 90 degree plane off parent plane",
+		"shortcut": "<kbd>⌘</kbd> + drag",
+		"category": "Vanishing Point"
+	},
+	{
+		"title": "Delete last node while creating plane",
+		"shortcut": "<kbd>Delete</kbd>",
+		"category": "Vanishing Point"
+	},
+	{
+		"title": "Make a full canvas plane, square to the camera",
+		"shortcut": "Double-click the Create Plane tool",
+		"category": "Vanishing Point"
+	},
+	{
+		"title": "Zoom tool",
+		"shortcut": "Z",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Hand tool",
+		"shortcut": "H",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "White Balance tool",
+		"shortcut": "I",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Color Sampler tool",
+		"shortcut": "S",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Crop tool",
+		"shortcut": "C",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Straighten tool",
+		"shortcut": "A",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Spot Removal tool",
+		"shortcut": "B",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Red Eye Removal tool",
+		"shortcut": "E",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Basic panel",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> + 1",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Tone Curve panel",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> + 2",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Detail panel",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> + 3",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "HSL/Grayscale panel",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> + 4",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Split Toning panel",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> + 5",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Lens Corrections panel",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> + 6",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Camera Calibration panel",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> + 7",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Presets panel",
+		"shortcut":
+			"<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> + 9 (macOS Universal Access zoom shortcut must be disabled in System Preferences)",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Open Snapshots panel",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> + 9",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Parametric Curve Targeted Adjustment tool",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> <kbd>⇧</kbd> <kbd>T</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Hue Targeted Adjustment tool",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> <kbd>⇧</kbd> <kbd>H</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Saturation Targeted Adjustment tool",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> <kbd>⇧</kbd> <kbd>S</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Luminance Targeted Adjustment tool",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> <kbd>⇧</kbd> <kbd>L</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Grayscale Mix Targeted Adjustment tool",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> <kbd>⇧</kbd> <kbd>G</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Last-used Targeted Adjustment tool",
+		"shortcut": "<kbd>T</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Adjustment Brush tool",
+		"shortcut": "<kbd>K</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Graduated Filter tool",
+		"shortcut": "<kbd>G</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Increase/decrease brush size",
+		"shortcut": "<kbd>]</kbd>/<kbd>[</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Increase/decrease brush feather",
+		"shortcut": "<kbd>⇧</kbd> <kbd>]</kbd>/<kbd>⇧</kbd> <kbd>[</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Increase/decrease Adjustment Brush tool flow in increments of 10",
+		"shortcut": "<kbd>=</kbd>/<kbd>+</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title":
+			"Temporarily switch from Add to Erase mode for theAdjustment Brush tool, or from Erase to Add mode",
+		"shortcut": "<kbd>⌥</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Increase/decrease temporary Adjustment Brush tool size",
+		"shortcut": "<kbd>⌥</kbd> <kbd>]</kbd> <kbd>⌥</kbd> <kbd>[</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Increase/decrease temporary Adjustment Brush tool feather",
+		"shortcut":
+			"<kbd>⌥</kbd> <kbd>⇧</kbd> <kbd>]</kbd> or <kbd>⌥</kbd> <kbd>⇧</kbd> <kbd>[</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title":
+			"Increase/decrease temporary Adjustment Brush tool flow in increments of 10",
+		"shortcut": "<kbd>⌥</kbd> <kbd>=</kbd> or <kbd>⌥</kbd> </kbd>+</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title":
+			"Switch to New mode from Add or Erase mode of theAdjustment Brush tool or the Graduated Filter",
+		"shortcut": "<kbd>N</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Toggle Auto Mask for Adjustment Brush tool",
+		"shortcut": "<kbd>M</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Toggle Show Mask for Adjustment Brush tool",
+		"shortcut": "<kbd>Y</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Toggle pins for Adjustment Brush tool",
+		"shortcut": "<kbd>V</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title":
+			"Toggle overlay for Graduated Filter, Spot Removal tool, or Red Eye Removal tool.",
+		"shortcut": "<kbd>V</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Rotate image left",
+		"shortcut": "<kbd>L</kbd> or <kbd>⌘</kbd> <kbd>]</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Rotate image right",
+		"shortcut": "R or <kbd>⌘</kbd> <kbd>[</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Zoom in",
+		"shortcut": "<kbd>⌘</kbd> <kbd>+</kbd> (plus)",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Zoom out",
+		"shortcut": "<kbd>⌘</kbd> <kbd> </kbd> (hyphen)",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Temporarily switch to Zoom In tool",
+		"shortcut": "<kbd>⌘</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title":
+			"Temporarily switch to Zoom Out tool and change the Open Image button to Open Copy and the Cancel button to Reset.",
+		"shortcut": "<kbd>⌥</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Toggle preview",
+		"shortcut": "P",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Full screen mode",
+		"shortcut": "F",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title":
+			"Temporarily activate the White Balance tool and change the Open Image button to Open Object.",
+		"shortcut": "<kbd>⇧</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Select multiple points in Curves panel",
+		"shortcut": "Click the first point; <kbd>⇧</kbd> + click additional points",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Add point to curve in Curves panel",
+		"shortcut": "<kbd>⌘</kbd> + click in preview",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Move selected point in Curves panel (1 unit)",
+		"shortcut": "Arrow keys",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Move selected point in Curves panel (10 units)",
+		"shortcut": "<kbd>⇧</kbd> + arrow",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Open selected images in Camera Raw dialog box from Bridge",
+		"shortcut": "<kbd>⌘</kbd> <kbd>R</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Open selected images from Bridge bypassing Camera Raw dialog box",
+		"shortcut": "<kbd>⇧</kbd> + double-click image",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Display highlights that will be clipped in Preview",
+		"shortcut": "<kbd>⌥</kbd> + drag Exposure, Recovery, or Black sliders",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Highlight clipping warning",
+		"shortcut": "O",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Shadows clipping warning",
+		"shortcut": "U",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "(Filmstrip mode) Add 1 + 5 star rating",
+		"shortcut": "<kbd>⌘</kbd> <kbd>1</kbd> + 5",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "(Filmstrip mode) Increase/decrease rating",
+		"shortcut": "<kbd>⌘</kbd> <kbd>.</kbd> or <kbd>⌘</kbd> <kbd>,</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "(Filmstrip mode) Add red label",
+		"shortcut": "<kbd>⌘</kbd> <kbd>6</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "(Filmstrip mode) Add yellow label",
+		"shortcut": "<kbd>⌘</kbd> <kbd>7</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "(Filmstrip mode) Add green label",
+		"shortcut": "<kbd>⌘</kbd> <kbd>8</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "(Filmstrip mode) Add blue label",
+		"shortcut": "<kbd>⌘</kbd> <kbd>9</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "(Filmstrip mode) Add purple label",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> + 0",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Camera Raw preferences",
+		"shortcut": "<kbd>⌘</kbd> <kbd>K</kbd>",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Deletes Adobe Camera Raw preferences",
+		"shortcut": "<kbd>⌥</kbd> <kbd>⇧</kbd> (on open)",
+		"category": "Camera Raw dialog box"
+	},
+	{
+		"title": "Open the Black-and-White dialog box",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd>+ B",
+		"category": "Black-and-White dialog box"
+	},
+	{
+		"title": "Increase/decrease selected value by 1%",
+		"shortcut": "<kbd>↑</kbd>/<kbd>↓</kbd>",
+		"category": "Black-and-White dialog box"
+	},
+	{
+		"title": "Increase/decrease selected value by 10%",
+		"shortcut": "<kbd>⇧</kbd> <kbd>↑</kbd>/<kbd>↓</kbd>",
+		"category": "Black-and-White dialog box"
+	},
+	{
+		"title": "Change the values of the closest color slider",
+		"shortcut": "Click-drag on the image",
+		"category": "Black-and-White dialog box"
+	},
+	{
+		"title": "Open the Curves dialog box",
+		"shortcut": "<kbd>⌘</kbd> <kbd>M</kbd>",
+		"category": "Curves"
+	},
+	{
+		"title": "Select next point on the curve",
+		"shortcut": "<kbd>+</kbd>",
+		"category": "Curves"
+	},
+	{
+		"title": "Select the previous point on the curve",
+		"shortcut": "<kbd>–</kbd>",
+		"category": "Curves"
+	},
+	{
+		"title": "Select multiple points on the curve",
+		"shortcut": "<kbd>⇧</kbd> + click the points",
+		"category": "Curves"
+	},
+	{
+		"title": "Deselect a point",
+		"shortcut": "<kbd>⌘</kbd> <kbd>D</kbd>",
+		"category": "Curves"
+	},
+	{
+		"title": "To delete a point on the curve",
+		"shortcut": "Select a point and press Delete",
+		"category": "Curves"
+	},
+	{
+		"title": "Move the selected point 1 unit",
+		"shortcut": "Arrow keys",
+		"category": "Curves"
+	},
+	{
+		"title": "Move the selected point 10 units",
+		"shortcut": "<kbd>⇧</kbd> <kbd>A</kbd>rrow keys",
+		"category": "Curves"
+	},
+	{
+		"title": "Display highlights and shadows that will be clipped",
+		"shortcut": "<kbd>⌥</kbd> + drag black/white point sliders",
+		"category": "Curves"
+	},
+	{
+		"title": "Set a point to the composite curve",
+		"shortcut": "<kbd>⌘</kbd> + click the image",
+		"category": "Curves"
+	},
+	{
+		"title": "Set a point to the channel curves",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> + click the image",
+		"category": "Curves"
+	},
+	{
+		"title": "Toggle grid size",
+		"shortcut": "<kbd>⌥</kbd> + click the field",
+		"category": "Curves"
+	},
+	{
+		"title": "Reposition marquee while selecting",
+		"shortcut":
+			"Any marquee tool (except single column and single row) + <kbd>spacebar</kbd> + drag",
+		"category": "Select and move objects"
+	},
+	{
+		"title": "Add to a selection",
+		"shortcut": "Any selection tool + <kbd>⇧</kbd> + drag",
+		"category": "Select and move objects"
+	},
+	{
+		"title": "Subtract from a selection",
+		"shortcut": "Any selection tool + <kbd>⌥</kbd> + drag",
+		"category": "Select and move objects"
+	},
+	{
+		"title": "Intersect a selection",
+		"shortcut":
+			"Any selection tool (except Quick Selection tool) + <kbd>⇧</kbd> <kbd>⌥</kbd> + drag",
+		"category": "Select and move objects"
+	},
+	{
+		"title":
+			"Constrain marquee to square or circle (if no other selections are active)",
+		"shortcut": "<kbd>⇧</kbd> + drag",
+		"category": "Select and move objects"
+	},
+	{
+		"title": "Draw marquee from center (if no other selections are active)",
+		"shortcut": "<kbd>⌥</kbd> + drag",
+		"category": "Select and move objects"
+	},
+	{
+		"title": "Constrain shape and draw marquee from center",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> + drag",
+		"category": "Select and move objects"
+	},
+	{
+		"title": "Switch to Move tool",
+		"shortcut":
+			"<kbd>⌘</kbd> (e<kbd>x</kbd>cept when Hand, Slice, Path, Shape, or any Pen tool is selected)",
+		"category": "Select and move objects"
+	},
+	{
+		"title": "Switch from Magnetic Lasso tool to Lasso tool",
+		"shortcut": "<kbd>⌥</kbd> + drag",
+		"category": "Select and move objects"
+	},
+	{
+		"title": "Switch from Magnetic Lasso tool to polygonal Lasso tool",
+		"shortcut": "<kbd>⌥</kbd> + click",
+		"category": "Select and move objects"
+	},
+	{
+		"title": "Move copy of selection",
+		"shortcut": "Move tool + <kbd>⌥</kbd> + drag selection",
+		"category": "Select and move objects"
+	},
+	{
+		"title": "Move selection area 1 pixel",
+		"shortcut":
+			"Any selection + →, <kbd>←</kbd>,<kbd> </kbd> <kbd>↑</kbd>, or <kbd>↓</kbd>",
+		"category": "Select and move objects"
+	},
+	{
+		"title": "Move selection 1 pixel",
+		"shortcut":
+			"Move tool + →, <kbd>←</kbd>,<kbd> </kbd> <kbd>↑</kbd>, or <kbd>↓</kbd>",
+		"category": "Select and move objects"
+	},
+	{
+		"title": "Move layer 1 pixel when nothing selected on layer",
+		"shortcut":
+			"<kbd>⌘</kbd> <kbd>→</kbd>, <kbd>←</kbd>,<kbd> </kbd> <kbd>↑</kbd>, or <kbd>↓</kbd>",
+		"category": "Select and move objects"
+	},
+	{
+		"title": "Increase/decrease detection width",
+		"shortcut": "Magnetic Lasso tool <kbd>[</kbd> or <kbd>]</kbd>",
+		"category": "Select and move objects"
+	},
+	{
+		"title": "Accept cropping or exit cropping",
+		"shortcut": "Crop tool<kbd>R</kbd>eturn or Esc",
+		"category": "Select and move objects"
+	},
+	{
+		"title": "Toggle crop shield off and on",
+		"shortcut": "<kbd>/</kbd>",
+		"category": "Select and move objects"
+	},
+	{
+		"title": "Make protractor",
+		"shortcut": "Ruler tool + <kbd>⌥</kbd> + drag end point",
+		"category": "Select and move objects"
+	},
+	{
+		"title": "Snap guide to ruler ticks (except when View Snap is unchecked)",
+		"shortcut": "<kbd>⇧</kbd> + drag guide",
+		"category": "Select and move objects"
+	},
+	{
+		"title": "Convert between horizontal and vertical guide",
+		"shortcut": "<kbd>⌥</kbd> + drag guide",
+		"category": "Select and move objects"
+	},
+	{
+		"title": "Transform from center or reflect",
+		"shortcut": "<kbd>⌥</kbd>",
+		"category": "Transform selections, selection borders, and paths"
+	},
+	{
+		"title": "Constrain",
+		"shortcut": "<kbd>⇧</kbd>",
+		"category": "Transform selections, selection borders, and paths"
+	},
+	{
+		"title": "Distort",
+		"shortcut": "<kbd>⌘</kbd>",
+		"category": "Transform selections, selection borders, and paths"
+	},
+	{
+		"title": "Apply",
+		"shortcut": "Return",
+		"category": "Transform selections, selection borders, and paths"
+	},
+	{
+		"title": "Cancel",
+		"shortcut": "<kbd>⌘</kbd> <kbd>.</kbd> or <kbd>Esc</kbd>",
+		"category": "Transform selections, selection borders, and paths"
+	},
+	{
+		"title": "Free transform with duplicate data",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> <kbd>T</kbd>",
+		"category": "Transform selections, selection borders, and paths"
+	},
+	{
+		"title": "Transform again with duplicate data",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> <kbd>⌥</kbd> <kbd>T</kbd>",
+		"category": "Transform selections, selection borders, and paths"
+	},
+	{
+		"title": "Select multiple anchor points",
+		"shortcut": "Direct selection tool + <kbd>⇧</kbd> + click",
+		"category": "Edit paths"
+	},
+	{
+		"title": "Select entire path",
+		"shortcut": "Direct selection tool + <kbd>⌥</kbd> + click",
+		"category": "Edit paths"
+	},
+	{
+		"title": "Duplicate a path",
+		"shortcut":
+			"Pen (any Pen tool), Path Selection or Direct Selection tool + <kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> + drag",
+		"category": "Edit paths"
+	},
+	{
+		"title":
+			"Switch from Path Selection, Pen, Add Anchor Point, Delete Anchor Point, or Convert Point tools to Direct Selection tool",
+		"shortcut": "<kbd>⌘</kbd>",
+		"category": "Edit paths"
+	},
+	{
+		"title":
+			"Switch from Pen tool or Freeform Pen tool to Convert Point tool when pointer is over anchor or direction point",
+		"shortcut": "<kbd>⌥</kbd>",
+		"category": "Edit paths"
+	},
+	{
+		"title": "Close path",
+		"shortcut": "Magnetic Pen tool-double-click",
+		"category": "Edit paths"
+	},
+	{
+		"title": "Close path with straight-line segment",
+		"shortcut": "Magnetic Pen tool + <kbd>⌥</kbd> + double-click",
+		"category": "Edit paths"
+	},
+	{
+		"title": "Select foreground color from color picker",
+		"shortcut":
+			"Any painting tool + <kbd>⌃</kbd> <kbd>⌥</kbd> <kbd>⌘</kbd> an<kbd>d</kbd> drag",
+		"category": "Painting"
+	},
+	{
+		"title": "Select foreground color from image with Eyedropper tool",
+		"shortcut":
+			"Any painting tool + <kbd>⌥</kbd> or any shape tool + <kbd>⌥</kbd> (except when Paths <kbd>⌥</kbd> is selected)",
+		"category": "Painting"
+	},
+	{
+		"title": "Select background color",
+		"shortcut": "Eyedropper tool + <kbd>⌥</kbd> + click",
+		"category": "Painting"
+	},
+	{
+		"title": "Color sampler tool",
+		"shortcut": "Eyedropper tool + <kbd>⇧</kbd>",
+		"category": "Painting"
+	},
+	{
+		"title": "Deletes color sampler",
+		"shortcut": "Color sampler tool + <kbd>⌥</kbd> + click",
+		"category": "Painting"
+	},
+	{
+		"title": "Sets opacity, tolerance, strength, or exposure for painting mode",
+		"shortcut":
+			"Any painting or editing tool + number keys (e.g., 0 = 100%, 1 = 10%, 4 then 5 in quick succession = 45%) (when airbrush <kbd>⌥</kbd> is enabled, use <kbd>⇧</kbd> + number keys)",
+		"category": "Painting"
+	},
+	{
+		"title": "Sets flow for painting mode",
+		"shortcut":
+			"Any painting or editing tool + <kbd>⇧</kbd> + number keys (e.g., 0 = 100%, 1 = 10%, 4 then 5 in quick succession = 45%) (when airbrush <kbd>⌥</kbd> is enabled, omit <kbd>⇧</kbd>)",
+		"category": "Painting"
+	},
+	{
+		"title": "Mixer Brush changes Mix setting",
+		"shortcut": "<kbd>⌥</kbd> <kbd>⇧</kbd> + number",
+		"category": "Painting"
+	},
+	{
+		"title": "Mixer Brush changes Wet setting",
+		"shortcut": "Number keys",
+		"category": "Painting"
+	},
+	{
+		"title": "Mixer Brush changes Wet and Mix to zero",
+		"shortcut": "0",
+		"category": "Painting"
+	},
+	{
+		"title": "Cycle through blending modes",
+		"shortcut": "<kbd>⇧</kbd> + + (plus) or – (minus)",
+		"category": "Painting"
+	},
+	{
+		"title": "Open Fill dialog box on background or standard layer",
+		"shortcut": "<kbd>Delete</kbd> or <kbd>⇧</kbd> <kbd>Delete</kbd>",
+		"category": "Painting"
+	},
+	{
+		"title": "Fill with foreground or background color",
+		"shortcut": "<kbd>⌥</kbd> <kbd>Delete</kbd> or <kbd>⌘</kbd> <kbd>D</kbd>elete",
+		"category": "Painting"
+	},
+	{
+		"title": "Fill from history",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> <kbd>Delete</kbd>",
+		"category": "Painting"
+	},
+	{
+		"title": "Displays Fill dialog box",
+		"shortcut": "<kbd>⇧</kbd> <kbd>Delete</kbd>",
+		"category": "Painting"
+	},
+	{
+		"title": "Lock transparent pixels on/off",
+		"shortcut": "<kbd>/</kbd>",
+		"category": "Painting"
+	},
+	{
+		"title": "Connects points with a straight line",
+		"shortcut": "Any painting tool + <kbd>⇧</kbd> + click",
+		"category": "Painting"
+	},
+	{
+		"title": "Cycle through blending modes",
+		"shortcut": "<kbd>⇧</kbd> <kbd>+</kbd> or <kbd>–</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Normal",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>N</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Dissolve",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>I</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Behind (Brush tool only)",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>Q</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Clear (Brush tool only)",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>R</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Darken",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>K</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Multiply",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>M</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Color Burn",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>B</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Linear Burn",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>A</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Lighten",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>G</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Screen",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>S</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Color Dodge",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>D</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Linear Dodge",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>W</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Overlay",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>O</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Soft Light",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>F</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Hard Light",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>H</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Vivid Light",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>V</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Linear Light",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>J</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Pin Light",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>Z</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Hard Mix",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>L</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Difference",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>E</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Exclusion",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>X</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Hue",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>U</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Saturation",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>T</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Color",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>C</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Luminosity",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>Y</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Desaturate",
+		"shortcut": "Sponge tool + <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>D</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Saturate",
+		"shortcut": "Sponge tool + <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>S</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Dodge/burn shadows",
+		"shortcut": "Dodge tool/Burn tool + <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>S</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Dodge/burn midtones",
+		"shortcut": "Dodge tool/Burn tool + <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>M</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Dodge/burn highlights",
+		"shortcut": "Dodge tool/Burn tool + <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>H</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title":
+			"Set blending mode to Threshold for bitmap images, Normal for all other images",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>N</kbd>",
+		"category": "Blending modes"
+	},
+	{
+		"title": "Move type in image",
+		"shortcut": "<kbd>⌘</kbd> + drag type when Type layer is selected",
+		"category": "Select and edit text"
+	},
+	{
+		"title": "Select 1 character left/right or 1 line down/up, or 1 word left/right",
+		"shortcut":
+			"<kbd>⇧</kbd> <kbd>←</kbd>/<kbd>→</kbd> or <kbd>↓</kbd>/<kbd>↑</kbd>, or <kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> <kbd>←</kbd>/<kbd>→</kbd>",
+		"category": "Select and edit text"
+	},
+	{
+		"title": "Select characters from insertion point to mouse click point",
+		"shortcut": "<kbd>⇧</kbd> + click",
+		"category": "Select and edit text"
+	},
+	{
+		"title": "Move 1 character left/right, 1 line down/up, or 1 word left/right",
+		"shortcut":
+			"<kbd>←</kbd>/<kbd>→</kbd>, <kbd>↓</kbd>/<kbd>↑</kbd>, or <kbd>⌘</kbd> <kbd><kbd>←</kbd><<kbd>/</kbd>kbd>/→",
+		"category": "Select and edit text"
+	},
+	{
+		"title":
+			"Create a new text layer, when a text layer is selected in the Layers panel",
+		"shortcut": "<kbd>⇧</kbd> + click",
+		"category": "Select and edit text"
+	},
+	{
+		"title": "Select a word, line, paragraph, or story",
+		"shortcut": "Double-click, triple-click, quadruple-click, or quintuple-click",
+		"category": "Select and edit text"
+	},
+	{
+		"title": "Show/Hide selection on selected type",
+		"shortcut": "<kbd>⌘</kbd> <kbd>H</kbd>",
+		"category": "Select and edit text"
+	},
+	{
+		"title":
+			"Display the bounding box for transforming text when editing text, or activate Move tool if cursor is inside the bounding box",
+		"shortcut": "<kbd>⌘</kbd>",
+		"category": "Select and edit text"
+	},
+	{
+		"title": "Scale text within a bounding box when resizing the bounding box",
+		"shortcut": "<kbd>⌘</kbd> + drag a bounding box handle",
+		"category": "Select and edit text"
+	},
+	{
+		"title": "Move text box while creating text box",
+		"shortcut": "<kbd>Spacebar</kbd> + drag",
+		"category": "Select and edit text"
+	},
+	{
+		"title": "Align left/center/right",
+		"shortcut":
+			"Horizontal Type tool + <kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> <kbd>L</kbd>/<kbd>C</kbd>/<kbd>R</kbd>",
+		"category": "Format type"
+	},
+	{
+		"title": "Align top/center/bottom",
+		"shortcut":
+			"Vertical Type tool + <kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> <kbd>L</kbd>/<kbd>C</kbd>/<kbd>R</kbd>",
+		"category": "Format type"
+	},
+	{
+		"title": "Choose 100% horizontal scale",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> <kbd>X</kbd>",
+		"category": "Format type"
+	},
+	{
+		"title": "Choose 100% vertical scale",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> <kbd>⌥</kbd> <kbd>X</kbd>",
+		"category": "Format type"
+	},
+	{
+		"title": "Choose Auto leading",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> <kbd>⌥</kbd> <kbd>A</kbd>",
+		"category": "Format type"
+	},
+	{
+		"title": "Choose 0 for tracking",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌃</kbd></kbd> <kbd>⇧</kbd> <kbd>Q</kbd>",
+		"category": "Format type"
+	},
+	{
+		"title": "Justify paragraph, left aligns last line",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> <kbd>J</kbd>",
+		"category": "Format type"
+	},
+	{
+		"title": "Justify paragraph, justifies all",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> <kbd>F</kbd>",
+		"category": "Format type"
+	},
+	{
+		"title": "Toggle paragraph hyphenation on/off",
+		"shortcut":
+			"<kbd>⌘</kbd> <kbd><kbd>⌃</kbd></kbd> <kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>H</kbd>",
+		"category": "Format type"
+	},
+	{
+		"title": "Toggle single/every-line composer on/off",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> <kbd>⌥</kbd> <kbd>T</kbd>",
+		"category": "Format type"
+	},
+	{
+		"title": "Decrease or increase type size of selected text 2 points or pixels",
+		"shortcut":
+			"<kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> <kbd>&lt;</kbd> or <kbd>&gt;</kbd>",
+		"category": "Format type"
+	},
+	{
+		"title": "Decrease or increase leading 2 points or pixels",
+		"shortcut": "<kbd>⌥</kbd> <kbd>↓</kbd> or <kbd>↑</kbd>",
+		"category": "Format type"
+	},
+	{
+		"title": "Decrease or increase baseline shift 2 points or pixels",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>↓</kbd> or <kbd>↑</kbd>",
+		"category": "Format type"
+	},
+	{
+		"title": "Decrease or increase kerning/tracking 20/1000 ems",
+		"shortcut": "<kbd>⌥</kbd> <kbd>←</kbd> <kbd>o</kbd>r →",
+		"category": "Format type"
+	},
+	{
+		"title":
+			"Set options for new items (except for Actions, Animation, Styles, Brushes, Tool Presets, and Layer Comps panels)",
+		"shortcut": "<kbd>⌥</kbd> + click New button",
+		"category": "Panels"
+	},
+	{
+		"title": "Delete without confirmation (except for the Brush panel)",
+		"shortcut": "<kbd>⌥</kbd> + click Delete button",
+		"category": "Panels"
+	},
+	{
+		"title": "Apply value and keep text box active",
+		"shortcut": "<kbd>⇧</kbd> <kbd>R</kbd>eturn",
+		"category": "Panels"
+	},
+	{
+		"title": "Show/Hide all panels",
+		"shortcut": "<kbd>Tab</kbd>",
+		"category": "Panels"
+	},
+	{
+		"title": "Show/Hide all panels except the toolbox and options bar",
+		"shortcut": "<kbd>⇧</kbd> <kbd>Tab</kbd>",
+		"category": "Panels"
+	},
+	{
+		"title": "Highlight options bar",
+		"shortcut": "Select tool and press Return",
+		"category": "Panels"
+	},
+	{
+		"title": "Increase/decrease selected values by 10",
+		"shortcut": "<kbd>⇧</kbd> <kbd>↑</kbd>/<kbd>↓</kbd>",
+		"category": "Panels"
+	},
+	{
+		"title": "Choose specific channel for adjustment",
+		"shortcut": "<kbd>⌥</kbd> <kbd>3</kbd>, <kbd>4</kbd>, <kbd>5</kbd>",
+		"category": "Adjustment layers"
+	},
+	{
+		"title": "Choose composite channel for adjustment",
+		"shortcut": "<kbd>⌥</kbd> <kbd>2</kbd>",
+		"category": "Adjustment layers"
+	},
+	{
+		"title": "Delete adjustment layer",
+		"shortcut": "<kbd>Delete</kbd>",
+		"category": "Panels"
+	},
+	{
+		"title": "Define Auto options for Levels or Curves",
+		"shortcut": "<kbd>⌥</kbd> + click Auto button",
+		"category": "Adjustment layers"
+	},
+	{
+		"title": "Delete brush",
+		"shortcut": "<kbd>⌥</kbd> + click brush",
+		"category": "Brush panel"
+	},
+	{
+		"title": "Rename brush",
+		"shortcut": "Double-click brush",
+		"category": "Brush panel"
+	},
+	{
+		"title": "Change brush size",
+		"shortcut": "Ctrl + <kbd>⌥</kbd> + drag left or right",
+		"category": "Brush panel"
+	},
+	{
+		"title": "Decrease/increase brush softness/hardness",
+		"shortcut": "Ctrl + <kbd>⌥</kbd> + drag up or down",
+		"category": "Brush panel"
+	},
+	{
+		"title": "Select previous/next brush size",
+		"shortcut": "<kbd>,</kbd> or <kbd>.</kbd>",
+		"category": "Brush panel"
+	},
+	{
+		"title": "Select first/last brush",
+		"shortcut": "<kbd>⇧</kbd> <kbd>,</kbd> or <kbd>.</kbd>",
+		"category": "Brush panel"
+	},
+	{
+		"title": "Display precise cross hair for brushes",
+		"shortcut": "<kbd>Caps Lock</kbd>",
+		"category": "Brush panel"
+	},
+	{
+		"title": "Toggle airbrush option",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>P</kbd>",
+		"category": "Brush panel"
+	},
+	{
+		"title": "Show Clone Source (overlays image)",
+		"shortcut": "<kbd>⌥</kbd> <kbd>⇧</kbd>",
+		"category": "Clone Source panel"
+	},
+	{
+		"title": "Nudge Clone Source",
+		"shortcut": "<kbd>⌥</kbd> <kbd>⇧</kbd> + arrow keys",
+		"category": "Clone Source panel"
+	},
+	{
+		"title": "Rotate Clone Source",
+		"shortcut": "<kbd>⌥</kbd> <kbd>⇧</kbd> <kbd>&lt;</kbd> or <kbd>&gt;</kbd>",
+		"category": "Clone Source panel"
+	},
+	{
+		"title": "Scale (increase or reduce size) Clone Source",
+		"shortcut": "<kbd>⌥</kbd> <kbd>⇧</kbd> <kbd>[</kbd> or <kbd>]</kbd>",
+		"category": "Clone Source panel"
+	},
+	{
+		"title": "Select background color",
+		"shortcut": "<kbd>⌥</kbd> + click color in color bar",
+		"category": "Color panel"
+	},
+	{
+		"title": "Display Color Bar menu",
+		"shortcut": "<kbd>⌃</kbd> + click color bar",
+		"category": "Color panel"
+	},
+	{
+		"title": "Cycle through color choices",
+		"shortcut": "<kbd>⇧</kbd> + click color bar",
+		"category": "Color panel"
+	},
+	{
+		"title": "Create a new snapshot",
+		"shortcut": "<kbd>⌥</kbd> <kbd>N</kbd>ew Snapshot",
+		"category": "History panel"
+	},
+	{
+		"title": "Rename snapshot",
+		"shortcut": "Double-click snapshot name",
+		"category": "History panel"
+	},
+	{
+		"title": "Step forward through image states",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> <kbd>Z</kbd>",
+		"category": "History panel"
+	},
+	{
+		"title": "Step backward through image states",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> <kbd>Z</kbd>",
+		"category": "History panel"
+	},
+	{
+		"title": "Duplicate any image state, except the current state",
+		"shortcut": "<kbd>⌥</kbd> + click the image state",
+		"category": "History panel"
+	},
+	{
+		"title": "Permanently clear history (no Undo)",
+		"shortcut":
+			"<kbd>⌥</kbd> <kbd>C</kbd>lear History (in History panel pop‑up menu)",
+		"category": "History panel"
+	},
+	{
+		"title": "Load layer transparency as a selection",
+		"shortcut": "<kbd>⌘</kbd> + click layer thumbnail",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Add to current selection",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> + click layer thumbnail",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Subtract from current selection",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> + click layer thumbnail",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Intersect with current selection",
+		"shortcut":
+			"<kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> <kbd>⌥</kbd> + click layer thumbnail",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Load filter mask as a selection",
+		"shortcut": "<kbd>⌘</kbd> + click filter mask thumbnail",
+		"category": "Layers panel"
+	},
+	{
+		"title": "New layer",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd>+ N",
+		"category": "Layers panel"
+	},
+	{
+		"title": "New layer via copy",
+		"shortcut": "<kbd>⌘</kbd> <kbd>J</kbd>",
+		"category": "Layers panel"
+	},
+	{
+		"title": "New layer via cut",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>J</kbd>",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Group layers",
+		"shortcut": "<kbd>⌘</kbd> <kbd>G</kbd>",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Ungroup layers",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> <kbd>G</kbd>",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Create/release clipping mask",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> <kbd>G</kbd>",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Select all layers",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> <kbd>A</kbd>",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Merge visible layers",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> <kbd>E</kbd>",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Create new empty layer with dialog box",
+		"shortcut": "<kbd>⌥</kbd> + click New Layer button",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Create new layer below target layer",
+		"shortcut": "<kbd>⌘</kbd> + click New Layer button",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Select top layer",
+		"shortcut": "<kbd>⌥</kbd> <kbd>.</bdd>",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Select bottom layer",
+		"shortcut": "<kbd>⌥</kbd> <kbd>,</kbd>",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Add to layer selection in Layers panel",
+		"shortcut": "<kbd>⇧</kbd> <kbd>⌥</kbd> <kbd>[</kbd> or <kbd>]</kbd>",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Select next layer down/up",
+		"shortcut": "<kbd>⌥</kbd> <kbd>[</kbd> or <kbd>]</kbd>",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Move target layer down/up",
+		"shortcut": "<kbd>⌘</kbd> <kbd>[</kbd> or <kbd>]</kbd>",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Merge a copy of all visible layers into target layer",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> <kbd>⌥</kbd> <kbd>E</kbd>",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Merge layers",
+		"shortcut":
+			"Highlight the layers you want to merge, then <kbd>⌘</kbd> <kbd>E</kbd>",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Move layer to bottom or top",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> <kbd>[</kbd> or <kbd>]</kbd>",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Copy current layer to layer below",
+		"shortcut": "<kbd>⌥</kbd> Merge Down <kbd>⌘</kbd> from the Panel pop‑up menu",
+		"category": "Layers panel"
+	},
+	{
+		"title":
+			"Merge all visible layers to a new layer above the currently selected layer",
+		"shortcut": "<kbd>⌥</kbd> Merge Visible <kbd>⌘</kbd> from the Panel pop‑up menu",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Show/hide this layer/layer group only or all layers/layer groups",
+		"shortcut": "<kbd>⌃</kbd> + click the eye icon",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Show/hide all other currently visible layers",
+		"shortcut": "<kbd>⌥</kbd> + click the eye icon",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Toggle lock transparency for target layer, or last applied lock",
+		"shortcut": "<kbd>/</bkd>",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Edit layer effect/style, options",
+		"shortcut": "Double-click layer effect/style",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Hide layer effect/style",
+		"shortcut": "<kbd>⌥</kbd> + double-click layer effect/style",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Edit layer style",
+		"shortcut": "Double-click layer",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Disable/enable vector mask",
+		"shortcut": "<kbd>⇧</kbd> + click vector mask thumbnail",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Open Layer Mask Display Options dialog box",
+		"shortcut": "Double-click layer mask thumbnail",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Toggle layer mask on/off",
+		"shortcut": "<kbd>⇧</kbd> + click layer mask thumbnail",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Toggle filter mask on/off",
+		"shortcut": "<kbd>⇧</kbd> + click filter mask thumbnail",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Toggle between layer mask/composite image",
+		"shortcut": "<kbd>⌥</kbd> + click layer mask thumbnail",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Toggle between filter mask/composite image",
+		"shortcut": "<kbd>⌥</kbd> + click filter mask thumbnail",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Toggle rubylith mode for layer mask on/off",
+		"shortcut": "<kbd>\\</kbd> or <kbd>⇧</kbd> <kbd>⌥</kbd> + click",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Select all type; temporarily select Type tool",
+		"shortcut": "Double-click type layer thumbnail",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Create a clipping mask",
+		"shortcut": "<kbd>⌥</kbd> + click the line dividing two layers",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Rename layer",
+		"shortcut": "Double-click the layer name",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Edit filter settings",
+		"shortcut": "Double-click the filter effect",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Edit the Filter Blending options",
+		"shortcut": "Double-click the Filter Blending icon",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Create new layer group below current layer/layer set",
+		"shortcut": "<kbd>⌘</kbd> + click New Group button",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Create new layer group with dialog box",
+		"shortcut": "<kbd>⌥</kbd> + click New Group button",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Create layer mask that hides all/selection",
+		"shortcut": "<kbd>⌥</kbd> + click Add Layer Mask button",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Create vector mask that reveals all/path area",
+		"shortcut": "<kbd>⌘</kbd> + click Add Layer Mask button",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Create vector mask that hides all or displays path area",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> + click Add Layer Mask button",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Display layer group properties",
+		"shortcut":
+			"<kbd>⌃</kbd> + click the layer group and choose Group Properties, or double-click group",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Select/deselect multiple contiguous layers",
+		"shortcut": "<kbd>⇧</kbd> + click",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Select/deselect multiple discontiguous layers",
+		"shortcut": "<kbd>⌘</kbd> + click",
+		"category": "Layers panel"
+	},
+	{
+		"title": "Load path as selection",
+		"shortcut": "<kbd>⌘</kbd> + click pathname",
+		"category": "Paths panel"
+	},
+	{
+		"title": "Add path to selection",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> + click pathname",
+		"category": "Paths panel"
+	},
+	{
+		"title": "Subtract path from selection",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⌥</kbd></kbd> + click pathname",
+		"category": "Paths panel"
+	},
+	{
+		"title": "Retain intersection of path as selection",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> <kbd>⌥</kbd> + click pathname",
+		"category": "Paths panel"
+	},
+	{
+		"title": "Hide path",
+		"shortcut": "<kbd>⌘</kbd> <kbd><kbd>⇧</kbd></kbd> <kbd>H</kbd>",
+		"category": "Paths panel"
+	},
+	{
+		"title":
+			"Set options for Fill Path with Foreground Color button, Stroke Path with Brush button, Load Path as a Selection button, Make Work Path from Selection button, and Create New Path button",
+		"shortcut": "<kbd>⌥</kbd> + click button",
+		"category": "Paths panel"
+	},
+	{
+		"title": "Create new swatch from foreground color",
+		"shortcut": "Click in empty area of panel",
+		"category": "Swatches panel"
+	},
+	{
+		"title": "Set swatch color as background color",
+		"shortcut": "<kbd>⌘</kbd> + click swatch",
+		"category": "Swatches panel"
+	},
+	{
+		"title": "Delete swatch",
+		"shortcut": "<kbd>⌥</kbd> + click swatch",
+		"category": "Swatches panel"
+	}
+]

@@ -10,18 +10,18 @@ let databaseWorker = null
 let searchWorker = null
 
 export function getWorkers() {
-	invariant(
-		databaseWorker != null && searchWorker != null,
-		"Workers hasn't initialized yet"
-	)
+  invariant(
+    databaseWorker != null && searchWorker != null,
+    "Workers hasn't initialized yet"
+  )
 
-	return {
-		search: searchWorker,
-		database: databaseWorker
-	}
+  return {
+    search: searchWorker,
+    database: databaseWorker
+  }
 }
 
 export function startWorkers() {
-	searchWorker = startSearchWorker()
-	databaseWorker = startDatabaseWorker()
+  searchWorker = startSearchWorker()
+  databaseWorker = startDatabaseWorker()
 }

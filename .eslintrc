@@ -1,10 +1,25 @@
 {
-	"extends": ["eslint-config-synacor", "plugin:flowtype/recommended"],
-	"plugins": ["flowtype"],
+	"env": {
+		"node": true,
+		"browser": true
+	},
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:flowtype/recommended",
+    "prettier/flowtype",
+    "prettier/react"
+  ],
+  "plugins": ["babel", "react", "flowtype", "prettier"],
 	"rules": {
-		"eqeqeq": [0, "smart"],
-		"semi": [0, "error"],
+		"eqeqeq": ["error", "smart"],
+		"semi": ["error", "never"],
 		"react/no-danger": "off",
+    "no-extra-semi": "error",
+    "array-bracket-spacing": ["error", "never"],
+    "object-curly-spacing": ["error", "never"],
+    "react/display-name": 0,
+    "react/prop-types": 0,
 		"react/sort-comp": [
 			2,
 			{
@@ -19,6 +34,13 @@
 					"render"
 				]
 			}
-		]
+		],
+    "flowtype/semi": ["error", "never"],
+    "flowtype/space-after-type-colon": ["error", "always"],
+    "flowtype/space-before-type-colon": ["error", "never"],
+    "flowtype/generic-spacing": ["error", "never"],
+    "flowtype/no-primitive-constructor-types": 2,
+    "flowtype/no-dupe-keys": 2,
+    "prettier/prettier": "error"
 	}
 }

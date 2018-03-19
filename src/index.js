@@ -4,7 +4,7 @@ import App from './components/App'
 import 'milligram/dist/milligram.css'
 import './style'
 
-import { startWorkers } from './workers'
+import {startWorkers} from './workers'
 
 startWorkers()
 

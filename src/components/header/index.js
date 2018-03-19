@@ -1,12 +1,16 @@
 // @flow
 import React from 'preact'
-import classnames from 'classnames'
 
 import style from './style'
 
-const Header = () => {
-	const headerClasses = classnames('row', style.header)
-	return <header class={headerClasses} />
-}
+const Header = () => (
+  <header className={style.header}>
+    <nav />
+    <div className="container">
+      <h1>{"Anything's shortcuts"}</h1>
+      <h5>{'Offlineable. Instantly search for shortcuts of any apps.'}</h5>
+    </div>
+  </header>
+)
 
 export default Header
