@@ -1,0 +1,16 @@
+.inputWrapper {
+  margin: 0 0 2rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.input[type='search'] {
+  color: #495057;
+  font-size: 2.25rem;
+  padding: 3rem 0;
+  margin-bottom: 0;
+  border: none;
+}
+
+.input[type='search']:focus {
+  border-color: #495057;
+}

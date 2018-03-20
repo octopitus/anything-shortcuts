@@ -5,7 +5,6 @@ import style from './style'
 
 const Header = () => (
   <header className={style.header}>
-    <nav />
     <div className={'container ' + style.titleWrapper}>
       <h1 className={style.title}>
         Anything <em>shortcuts</em>

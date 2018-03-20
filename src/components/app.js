@@ -1,15 +1,14 @@
 // @flow
 import React, {Component} from 'preact'
 
-// $FlowFixMe
-import {getWorkers} from '../workers'
+import {startWorkers, getWorkers} from '../workers'
 
-import Header from './Header'
-import SearchContentWrapper from './SearchContentWrapper'
+import SearchInput from './SearchInput'
+import ShortcutSectionList from './ShortcutSectionList'
 
-if ((module: any).hot) {
-  require('preact/debug')
-}
+if ((module: any).hot) require('preact/debug')
+
+startWorkers()
 
 class App extends Component {
   componentDidMount() {
@@ -24,8 +23,8 @@ class App extends Component {
   render() {
     return (
       <div id="app">
-        <Header />
-        <SearchContentWrapper />
+        <SearchInput />
+        <ShortcutSectionList />
       </div>
     )
   }

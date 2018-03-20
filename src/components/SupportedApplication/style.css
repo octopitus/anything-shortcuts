@@ -1,0 +1,28 @@
+.applicationsWrapper {
+
+}
+
+.applicationsWrapper h5 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: normal;
+}
+
+.applicationList {
+  flex-wrap: wrap;
+}
+
+.application {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border: 1px solid #DDD;
+  background-color: #fff;
+}
+
+.application img {
+  width: 32px;
+  height: 32px;
+  margin-right: 1rem;
+}
