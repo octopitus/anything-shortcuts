@@ -1,19 +1,25 @@
 .header {
+  /* padding-top: 6em; */
+}
+
+.titleWrapper {
+  text-align: center;
 }
 
 .header h1 {
-  color: #333;
   font-size: 36px;
   margin-bottom: 1rem;
-  font-weight: normal;
+}
+
+.header h1 em {
+  font-style: normal;
+  color: #adb5bd;
 }
 
 .header h5 {
-  font-weight: normal;
 }
 
 .header nav {
   height: 56px;
-  margin-bottom: 24px;
-  border-bottom: 1px solid #d5dadf;
+  margin-bottom: 2em;
 }

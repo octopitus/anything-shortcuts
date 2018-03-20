@@ -6,22 +6,29 @@
 
 @media (min-width: 40rem) {
   .shortcutList {
-    padding: 0 1rem !important;
+    /* padding: 0 1rem !important; */
   }
 }
 
 .shortcutItem {
+  display: flex;
+  flex-direction: row;
   min-height: 56px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   margin-bottom: 0;
 }
 
 .shortcutTitle {
-  flex-basis: 67%;
+  flex: 1;
+  padding-right: 1rem;
+  /* flex-basis: 67%; */
 }
 
 .shortcut {
-  flex-basis: 33%;
+  flex: 1;
+  padding-left: 1rem;
+  justify-content: flex-end;
+  /* flex-basis: 33%; */
 }
 
 .textCenterVertical {

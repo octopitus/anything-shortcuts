@@ -6,9 +6,11 @@ import style from './style'
 const Header = () => (
   <header className={style.header}>
     <nav />
-    <div className="container">
-      <h1>{"Anything's shortcuts"}</h1>
-      <h5>{'Offlineable. Instantly search for shortcuts of any apps.'}</h5>
+    <div className={'container ' + style.titleWrapper}>
+      <h1 className={style.title}>
+        Anything <em>shortcuts</em>
+      </h1>
+      <h5>Instantly search for shortcuts of any apps</h5>
     </div>
   </header>
 )

@@ -15,8 +15,6 @@ class ShortcutItem extends Component<Props> {
   }
 
   render(props: Props) {
-    const liClasses = classnames('row', style.shortcutItem)
-
     const titleClasses = classnames(
       style.shortcutTitle,
       style.noMargin,
@@ -30,12 +28,12 @@ class ShortcutItem extends Component<Props> {
     )
 
     return (
-      <li className={liClasses}>
+      <li className={style.shortcutItem}>
+        <p className={titleClasses}>{props.title}</p>
         <p
           className={shortcutClasses}
           dangerouslySetInnerHTML={{__html: props.shortcut}}
         />
-        <p className={titleClasses}>{props.title}</p>
       </li>
     )
   }
