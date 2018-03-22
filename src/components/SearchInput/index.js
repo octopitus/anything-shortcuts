@@ -27,7 +27,7 @@ class SearchInput extends Component {
           <input
             type="search"
             value={props.value}
-            placeholder="Search..."
+            placeholder="Search for any shortcuts..."
             onInput={this._onchange}
             className={style.input}
             autoFocus

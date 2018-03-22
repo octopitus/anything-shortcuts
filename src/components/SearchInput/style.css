@@ -1,13 +1,16 @@
 .inputWrapper {
   margin: 0 0 2rem 0;
   border-bottom: 1px solid #ddd;
+  height: 56px;
+  display: flex;
+  align-items: center;
 }
 
 .input[type='search'] {
   color: #495057;
-  font-size: 2.25rem;
-  padding: 3rem 0;
-  margin-bottom: 0;
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
   border: none;
 }
 
