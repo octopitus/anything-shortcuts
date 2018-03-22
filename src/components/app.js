@@ -43,8 +43,8 @@ class App extends Component<*, State> {
 
     return (
       <div id="app">
-        <SearchInput value={state.pattern} onChange={this._handleOnChange} />
         <Header />
+        <SearchInput value={state.pattern} onChange={this._handleOnChange} />
         <ShortcutSectionList
           pattern={state.pattern}
           application={state.application}

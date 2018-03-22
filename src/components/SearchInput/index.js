@@ -26,12 +26,12 @@ class SearchInput extends Component<Props> {
 
   render(props: Props) {
     return (
-      <div className={style.inputWrapper}>
-        <div className="container">
+      <div className="container">
+        <div className={style.inputWrapper}>
           <input
             type="search"
             value={props.value}
-            placeholder="Search for any shortcuts..."
+            placeholder="Search..."
             onInput={this._onchange}
             className={style.input}
             autoFocus
