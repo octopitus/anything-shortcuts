@@ -6,13 +6,13 @@ import style from './style'
 // const onChange
 
 type Props = {
-  pattern: string,
+  value: string,
   onChange: string => void
 }
 
 class SearchInput extends Component {
   static defaultProps = {
-    pattern: '',
+    value: '',
     onChange: () => {}
   }
 
@@ -26,7 +26,7 @@ class SearchInput extends Component {
         <div className="container">
           <input
             type="search"
-            value={props.pattern}
+            value={props.value}
             placeholder="Search..."
             onInput={this._onchange}
             className={style.input}

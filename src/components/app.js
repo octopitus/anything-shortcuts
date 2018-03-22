@@ -10,7 +10,17 @@ if ((module: any).hot) require('preact/debug')
 
 startWorkers()
 
-class App extends Component {
+type State = {
+  loaded: boolean,
+  pattern: string,
+  application: string
+}
+
+class App extends Component<*, State> {
+  state = {
+    loaded: false
+  }
+
   componentDidMount() {
     const workers = getWorkers()
 
@@ -18,13 +28,25 @@ class App extends Component {
       .initShortcutsTable()
       .then(workers.database.getAllShortcuts)
       .then(workers.search.addAll)
+      .then(() => this.setState({loaded: true}))
   }
 
-  render() {
+  _handleOnChange = (pattern: string): void => {
+    this.setState({pattern})
+  }
+
+  render(props: *, state: State) {
+    if (!this.state.loaded) {
+      return null
+    }
+
     return (
       <div id="app">
-        <SearchInput />
-        <ShortcutSectionList />
+        <SearchInput value={state.pattern} onChange={this._handleOnChange} />
+        <ShortcutSectionList
+          pattern={state.pattern}
+          application={state.application}
+        />
       </div>
     )
   }

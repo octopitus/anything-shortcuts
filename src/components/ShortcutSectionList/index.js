@@ -24,7 +24,7 @@ type State = {
 
 class ShortcutSectionList extends Component<Props, State> {
   state = {
-    items: Object
+    items: {}
   }
 
   componentWillReceiveProps(nextProps: Props) {
@@ -40,13 +40,13 @@ class ShortcutSectionList extends Component<Props, State> {
     return this.state.items !== nextState.items
   }
 
-  _handleOnChange = (pattern: string, category: string): void => {
+  _handleOnChange = (pattern: string, application: string): void => {
     getWorkers()
-      .search.search(pattern, {category})
+      .search.search(pattern, application)
       .then(items => this.setState({items: this._transform(items)}))
   }
 
-  _transform(items: Array<*>): Object {
+  _transform = (items: Array<*>): Object => {
     return items.reduce((result, item) => {
       result[item.application] = result[item.application] || {}
       result[item.application][item.application] =
