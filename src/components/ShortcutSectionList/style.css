@@ -15,9 +15,12 @@
 
 .shortcutSectionHeader h5 {
   font-size: 1.75rem;
-  font-weight: 600;
-  letter-spacing: normal;
+  font-weight: 500;
   margin-bottom: 0;
+}
+
+.shortcutSectionHeader h5::first-letter {
+  text-transform: uppercase;
 }
 
 .shortcutSectionHeader img {

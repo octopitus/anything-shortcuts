@@ -48,10 +48,10 @@ class ShortcutSectionList extends Component<Props, State> {
 
   _transform = (items: Array<*>): Object => {
     return items.reduce((result, item) => {
-      result[item.application] = result[item.application] || {}
-      result[item.application][item.application] =
-        result[item.application][item.application] || []
-      result[item.application][item.application].push(item)
+      result[item.category] = result[item.category] || {}
+      result[item.category][item.application] =
+        result[item.category][item.application] || []
+      result[item.category][item.application].push(item)
 
       return result
     }, {})
