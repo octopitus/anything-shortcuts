@@ -1,9 +1,10 @@
 .inputWrapper {
   margin: 0 0 2rem 0;
-  border-bottom: 1px solid #ddd;
   height: 56px;
   display: flex;
   align-items: center;
+  background-color: #FFF;
+  box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .input[type='search'] {

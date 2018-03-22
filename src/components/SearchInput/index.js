@@ -10,10 +10,14 @@ type Props = {
   onChange: string => void
 }
 
-class SearchInput extends Component {
+class SearchInput extends Component<Props> {
   static defaultProps = {
     value: '',
     onChange: () => {}
+  }
+
+  shouldComponentUpdate(nextProps: Props) {
+    return this.props.value !== nextProps.value
   }
 
   _onchange = (e: SyntheticInputEvent<HTMLInputElement>) => {

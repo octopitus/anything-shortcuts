@@ -3,6 +3,7 @@ import React, {Component} from 'preact'
 
 import {startWorkers, getWorkers} from '../workers'
 
+import Header from './Header'
 import SearchInput from './SearchInput'
 import ShortcutSectionList from './ShortcutSectionList'
 
@@ -43,6 +44,7 @@ class App extends Component<*, State> {
     return (
       <div id="app">
         <SearchInput value={state.pattern} onChange={this._handleOnChange} />
+        <Header />
         <ShortcutSectionList
           pattern={state.pattern}
           application={state.application}
