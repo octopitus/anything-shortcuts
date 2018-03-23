@@ -1,4 +1,3 @@
-//@flow
 import React, {Component} from 'preact'
 
 import {getWorkers} from '../../workers'
@@ -8,26 +7,16 @@ import ShortcutList from './ShortcutList'
 
 import style from './style'
 
-const getIcon = (application: string) => {
-  // $FlowFixMe
+const getIcon = application => {
   return require(`../../assets/icons/${application}.png`)
 }
 
-type Props = {
-  pattern: string,
-  application: string
-}
-
-type State = {
-  items: Object
-}
-
-class ShortcutSectionList extends Component<Props, State> {
+class ShortcutSectionList extends Component {
   state = {
     items: {}
   }
 
-  componentWillReceiveProps(nextProps: Props) {
+  componentWillReceiveProps(nextProps) {
     if (
       this.props.pattern !== nextProps.pattern ||
       this.props.application !== nextProps.application
@@ -36,17 +25,17 @@ class ShortcutSectionList extends Component<Props, State> {
     }
   }
 
-  shouldComponentUpdate(nextProps: Props, nextState: State) {
+  shouldComponentUpdate(nextProps, nextState) {
     return this.state.items !== nextState.items
   }
 
-  _handleOnChange = (pattern: string, application: string): void => {
+  _handleOnChange = (pattern, application) => {
     getWorkers()
       .search.search(pattern, application)
       .then(items => this.setState({items: this._transform(items)}))
   }
 
-  _transform = (items: Array<*>): Object => {
+  _transform = items => {
     return items.reduce((result, item) => {
       result[item.category] = result[item.category] || {}
       result[item.category][item.application] =
@@ -57,7 +46,7 @@ class ShortcutSectionList extends Component<Props, State> {
     }, {})
   }
 
-  render(props: Props, state: State) {
+  render(props, state) {
     const sections = Object.keys(state.items).map(category => {
       return Object.keys(state.items[category]).map(application => (
         <div key={category + application} className={style.shortcutSection}>

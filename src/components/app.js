@@ -1,4 +1,3 @@
-// @flow
 import React, {Component} from 'preact'
 
 import {startWorkers, getWorkers} from '../workers'
@@ -7,17 +6,11 @@ import Header from './Header'
 import SearchInput from './SearchInput'
 import ShortcutSectionList from './ShortcutSectionList'
 
-if ((module: any).hot) require('preact/debug')
+if (module.hot) require('preact/debug')
 
 startWorkers()
 
-type State = {
-  loaded: boolean,
-  pattern: string,
-  application: string
-}
-
-class App extends Component<*, State> {
+class App extends Component {
   state = {
     loaded: false
   }
@@ -32,11 +25,11 @@ class App extends Component<*, State> {
       .then(() => this.setState({loaded: true}))
   }
 
-  _handleOnChange = (pattern: string): void => {
+  _handleOnChange = pattern => {
     this.setState({pattern})
   }
 
-  render(props: *, state: State) {
+  render(props, state) {
     if (!this.state.loaded) {
       return null
     }

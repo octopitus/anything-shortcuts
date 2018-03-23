@@ -2,16 +2,15 @@
 	"parser": "babel-eslint",
 	"env": {
 		"node": true,
-		"browser": true
+		"browser": true,
+		"es6": true
 	},
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:flowtype/recommended",
-    "prettier/flowtype",
     "prettier/react"
   ],
-  "plugins": ["babel", "react", "flowtype", "prettier"],
+  "plugins": ["babel", "react", "prettier"],
 	"rules": {
 		"eqeqeq": ["error", "smart"],
 		"semi": ["error", "never"],
@@ -35,12 +34,6 @@
 				]
 			}
 		],
-    "flowtype/semi": ["error", "never"],
-    "flowtype/space-after-type-colon": ["error", "always"],
-    "flowtype/space-before-type-colon": ["error", "never"],
-    "flowtype/generic-spacing": ["error", "never"],
-    "flowtype/no-primitive-constructor-types": 2,
-    "flowtype/no-dupe-keys": 2,
     "prettier/prettier": "error"
 	}
 }

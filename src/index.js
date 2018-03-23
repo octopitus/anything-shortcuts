@@ -1,4 +1,3 @@
-// @flow
 import App from './components/App'
 
 import 'milligram/dist/milligram.css'

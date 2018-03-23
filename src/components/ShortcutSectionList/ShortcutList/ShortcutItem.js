@@ -1,20 +1,14 @@
-//@flow
 import React, {Component} from 'preact'
 import classnames from 'classnames'
 
 import style from './style'
 
-type Props = {
-  title: string,
-  shortcut: string
-}
-
-class ShortcutItem extends Component<Props> {
+class ShortcutItem extends Component {
   shouldComponentUpdate() {
     return false
   }
 
-  render(props: Props) {
+  render(props) {
     const titleClasses = classnames(
       style.shortcutTitle,
       style.noMargin,

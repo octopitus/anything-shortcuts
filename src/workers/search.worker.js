@@ -1,4 +1,3 @@
-// @flow
 import TrieSearch from 'trie-search'
 import {SEARCH_KEY} from '../constants'
 
@@ -6,11 +5,11 @@ const searcher = new TrieSearch(SEARCH_KEY, {
   ignoreCase: true
 })
 
-export function addAll(arr: Array<*>) {
+export function addAll(arr) {
   searcher.addAll(arr)
 }
 
-export function search(term: string, application: string, limit: number = 50) {
+export function search(term, application, limit = 50) {
   const results = searcher.get(term)
 
   if (application == null) {

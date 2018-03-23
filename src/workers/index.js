@@ -1,9 +1,6 @@
-// @flow
 import invariant from 'invariant'
 
-// $FlowFixMe
 import startSearchWorker from './search.worker.js'
-// $FlowFixMe
 import startDatabaseWorker from './database.worker.js'
 
 let databaseWorker = null

@@ -1,24 +1,19 @@
-//@flow
 import React, {Component} from 'preact'
 import classnames from 'classnames'
 
 import ShortcutItem from './ShortcutItem'
 import style from './style'
 
-type Props = {
-  items: Array<*>
-}
-
-class ShortcutList extends Component<Props> {
+class ShortcutList extends Component {
   static defaultProps = {
     items: []
   }
 
-  _renderItem = (item: any) => (
+  _renderItem = item => (
     <ShortcutItem key={item.id} title={item.title} shortcut={item.shortcut} />
   )
 
-  render(props: Props) {
+  render(props) {
     const items = props.items.map(this._renderItem)
     const listClasses = classnames('column', 'column-100', style.shortcutList)
 
